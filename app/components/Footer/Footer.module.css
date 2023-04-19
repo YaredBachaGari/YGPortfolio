@@ -1,0 +1,69 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.imageContainer {
+  height: 300px;
+}
+.innerContainer {
+  height: 450px;
+  background-image: url("../../../public/images/worldimg.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footerTextContainer {
+  /* height: 320px; */
+  background-color: var(--quaternarybgcolor);
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: aliceblue;
+  padding: 4rem 6rem 0rem 6rem;
+  height: 100%;
+}
+.copyright {
+  color: var(--secondarycolor);
+  font-size: var(--secondarytextfont);
+  text-align: center;
+  padding: 1rem 0;
+}
+.contactme {
+  text-decoration: underline 5px solid var(--tertiarycolor);
+  text-underline-offset: 5px;
+  padding-bottom: 1rem;
+}
+.divider {
+  width: 5px;
+  height: 35vh;
+  background-color: var(--tertiarycolor);
+  margin: 0 2rem;
+}
+.contactmeleft {
+  color: var(--secondarycolor);
+  list-style: none;
+  /* padding-bottom: 1rem; */
+}
+.contactmeleft a {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: inherit;
+}
+.contactmeleft a:hover {
+  text-decoration: underline 3px solid var(--tertiarycolor);
+  text-underline-offset: 3px;
+}
+.infocontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+.iconText{
+    padding-left: 1rem;
+    font-size: var(--secondarytextfont);
+}
