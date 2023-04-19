@@ -1,0 +1,26 @@
+.educationOuterContainer {
+  position: relative;
+  display: flex;
+  color: var(--primarycolor);
+}
+.educationwrapper {
+  width: 100%;
+  position: relative;
+}
+.fulllist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 4rem;
+  list-style: none;
+}
+.progressbar {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  width: 5px;
+  height: 100%;
+  background-color: var(--primarycolor);
+  transform-origin: top;
+}

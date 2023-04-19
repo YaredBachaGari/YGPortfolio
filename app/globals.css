@@ -1,27 +1,51 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,700;0,900;1,400&family=Nosifer&family=Poppins:wght@400;700;900&display=swap");
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --font-color: 218, 42, 42;
+  --project-fonts: "Nosifer", cursive;
+  /* text and header font size */
+  --kpi: 72px;
+  --logoheading: 40px;
+  --primaryheaderfont: 32px;
+  --secondaryheaderfont: 28px;
+  --tertiaryheaderfont: 24px;
+  --quaternaryheaderfont: 22px;
+  --primarytextfont: 18px;
+  --secondarytextfont: 16px;
+  /* text and header font weight */
+  --thiner: 100;
+  --normal: 400;
+  --normalmedium: 500;
+  --medium: 700;
+  --bold: 900;
+  --extrabold: bolder;
+  /* background colors*/
+  --primarybgcolor: #efefef;
+  --secondarybgcolor: #ebe6e6;
+  --tertiarybgcolor: #ec5940;
+  --quaternarybgcolor: #191d29;
+  /* text color */
+  --primarycolor: #191d29;
+  --secondarycolor: #efefef;
+  --tertiarycolor: #ec5940;
+  --quaternarycolor: #777882;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-size: var(--primarytextfont);
+  color: var(--primarycolor);
+  background-color: var(--primarybgcolor);
+  /* background-color:#191d29; */
 }

@@ -1,0 +1,34 @@
+.singleEducation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.eduheader {
+  font-size: var(--quaternaryheaderfont);
+}
+.studylevel{
+    font-weight: var(--normalmedium);
+}
+.studyfield{
+    color: var(--tertiarycolor);
+}
+.studyplace{
+    opacity: 70%;
+}
+.graduated {
+    font-style: italic;
+}
+
+.class1 {
+  stroke: var(--primarycolor);
+}
+.class2 {
+  stroke: var(--secondarycolor);
+}
+.class3 {
+  fill: var(--secondarycolor);
+}
+.class4 {
+  fill: var(--tertiarycolor);
+}

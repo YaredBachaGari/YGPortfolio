@@ -1,0 +1,9 @@
+.wrapper {
+  display: inline;
+  position: absolute;
+  top: 48%;
+  left: 90%;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+}

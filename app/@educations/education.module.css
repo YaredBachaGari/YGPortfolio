@@ -1,0 +1,62 @@
+.educationContainer {
+  margin: 4rem 5%;
+  padding: 1rem;
+}
+.educationheader {
+  color: var(--tertiarycolor);
+  font-size: var(--secondaryheaderfont);
+}
+
+.toggleOn {
+  margin: 4rem 4rem 0 4rem;
+  cursor: pointer;
+}
+.toggleoff {
+  margin: 4rem 4rem 0 4rem;
+  cursor: pointer;
+}
+.toggleOn path {
+  fill: var(--primarycolor);
+}
+.toggleoff path {
+  fill: var(--primarycolor);
+}
+.outerInnerEdu {
+  margin: 4rem 0;
+}
+
+.keyexp {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardcontainer {
+  color: var(--tertiarycolor);
+  text-align: center;
+  padding: 2rem 2rem 0 2rem;
+}
+.metrixnumber {
+  font-size: var(--kpi);
+}
+.metrixicon{
+  display: flex;
+  flex-direction: column;
+}
+.degreeicon{
+  margin: 0 auto;
+}
+
+.maingroup {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4rem;
+}
+
+
+.indicators {
+  color: var(--tertiarycolor);
+  font-weight: var(--medium);
+}
+
+.timeline{
+  padding: 3rem 4rem 4rem 4rem;
+}

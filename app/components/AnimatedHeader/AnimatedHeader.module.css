@@ -1,0 +1,15 @@
+.headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+.headeranime {
+  display: inline-block; 
+  width: 100%;
+}
+.words{
+    display: inline-block;
+}

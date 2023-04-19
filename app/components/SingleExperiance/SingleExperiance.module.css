@@ -1,0 +1,39 @@
+.singleexp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.expheader {
+  font-size: var(--quaternaryheaderfont);
+}
+.atcompany {
+  color: rgb(245 192 192);
+  font-weight: var(--thiner);
+}
+.companyName {
+  font-style: italic;
+  font-weight: var(--thiner);
+}
+
+.duration {
+  color: rgb(245 192 192);
+}
+.impactSummary {
+  list-style: none;
+  margin-left: 0.5rem;
+  font-size: var(--secondarytextfont);
+  font-style: italic;
+}
+.class1 {
+  stroke: var(--secondarycolor);
+}
+.class2 {
+  stroke: var(--secondarycolor);
+}
+.class3 {
+  fill: var(--tertiarycolor);
+}
+.class4 {
+  fill: var(--secondarycolor);
+}

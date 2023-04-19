@@ -1,0 +1,17 @@
+.spinnerCont {
+  position: absolute;
+  left: 0;
+  rotate: -90deg;
+}
+
+.innerCircles {
+  stroke-width: 1px;
+  fill: none;
+}
+.innerCircles2 {
+  stroke-width: 5px;
+  
+}
+.innerCircles3 {
+  stroke-width: 1px;
+}

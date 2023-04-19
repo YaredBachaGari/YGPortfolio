@@ -1,0 +1,29 @@
+.variantOne {
+  border: none;
+  background-color: var(--tertiarybgcolor);
+  padding: 1rem 2rem;
+  font-size: var(--primarytextfont);
+  color: var(--secondarycolor);
+  transition: background-color 1.5s ease;
+  cursor:pointer;
+}
+
+.variantTwo {
+  border: none;
+  border: 0.25px solid var(--primarycolor);
+  background: none;
+  padding: 1rem 2rem;
+  font-size: var(--primarytextfont);
+  border: .25px solid var(--primarycolor);
+  transition: background-color 1.5s ease;
+  cursor:pointer;
+}
+
+.variantOne:hover {
+  background-color: var(--quaternarybgcolor);
+  
+}
+.variantTwo:hover {
+  background-color: var(--quaternarybgcolor);
+  color: var(--secondarycolor);
+}

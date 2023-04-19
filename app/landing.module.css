@@ -1,0 +1,51 @@
+.landing-container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 2rem;
+  padding: 2rem 5%;
+}
+.herocontainer {
+  align-self: center;
+}
+.heroheader {
+  margin: 2rem 0 1.5rem 0;
+  padding: 1rem;
+}
+
+.herodesc {
+  padding: 0 1rem;
+  margin-bottom: 4rem;
+}
+.herImage {
+}
+.herobtns {
+  display: flex;
+  padding: 1rem;
+}
+.btn {
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.wifiIcon {
+  margin: auto 0.5rem auto 0;
+}
+.wifiIcon path {
+  fill: var(--secondarycolor);
+}
+.computerIcon {
+  margin: auto 0.5rem auto 0;
+}
+.computerIcon path {
+  fill: var(--primarycolor);
+  margin: auto 0.5rem auto 0;
+}
+/* .btn:hover {
+  .computerIcon path {
+    fill: var(--secondarycolor);
+  }
+} */
+
+.btn:hover .computerIcon path {
+    fill: var(--secondarycolor);
+  }

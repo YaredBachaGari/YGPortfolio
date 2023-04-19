@@ -1,0 +1,8 @@
+.lightDark path {
+  fill: var(--primarycolor);
+  font-weight: 2000;
+}
+.lightGray path {
+  fill: var(--secondarycolor);
+  font-weight:2000;
+}

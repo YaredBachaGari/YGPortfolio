@@ -1,0 +1,74 @@
+.experianceContainer {
+  margin: 4rem 5%;
+  padding: 1rem;
+}
+.experianceheader {
+  color: var(--tertiarycolor);
+  font-size: var(--secondaryheaderfont);
+}
+
+.toggleOn {
+  margin: 4rem 4rem 0 4rem;
+  cursor: pointer;
+}
+.toggleoff {
+  margin: 4rem 4rem 0 4rem;
+  cursor: pointer;
+}
+.toggleOn path {
+  fill: var(--secondarycolor);
+}
+.toggleoff path {
+  fill: var(--secondarycolor);
+}
+.outerInnerExp {
+  margin: 4rem 0;
+}
+
+.keyexp {
+  background-color: var(--quaternarybgcolor);
+}
+
+.cardcontainer {
+  color: var(--secondarycolor);
+  text-align: center;
+  padding: 2rem;
+}
+.metrixnumber {
+  font-size: var(--kpi);
+}
+.maingroup {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4rem;
+  flex-wrap: wrap;
+}
+.groupOne {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.groupTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submetrix {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  color: var(--secondarycolor);
+}
+.submetrix p {
+  padding: 1rem;
+  text-align: left;
+}
+.indicators {
+  color: var(--tertiarycolor);
+  font-weight: var(--medium);
+}
+
+.timeline{
+    padding: 3rem 4rem 4rem 4rem;
+}
