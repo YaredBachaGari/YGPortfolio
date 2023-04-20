@@ -1,18 +1,19 @@
 .experianceContainer {
-  margin: 4rem 5%;
+  margin: 6rem 5% 4rem 5%;
   padding: 1rem;
 }
 .experianceheader {
   color: var(--tertiarycolor);
   font-size: var(--secondaryheaderfont);
+  padding-bottom: 2rem;
 }
 
 .toggleOn {
-  margin: 4rem 4rem 0 4rem;
+  margin: 2rem 4rem 0 4rem;
   cursor: pointer;
 }
 .toggleoff {
-  margin: 4rem 4rem 0 4rem;
+  margin: 2rem 4rem 0 4rem;
   cursor: pointer;
 }
 .toggleOn path {
@@ -32,7 +33,7 @@
 .cardcontainer {
   color: var(--secondarycolor);
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 .metrixnumber {
   font-size: var(--kpi);
@@ -40,7 +41,7 @@
 .maingroup {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   flex-wrap: wrap;
 }
 .groupOne {

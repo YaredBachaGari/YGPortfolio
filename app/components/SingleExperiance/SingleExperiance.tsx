@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import styles from "./SingleExperiance.module.css";
 import ScrollSpin from "../ScrollSpin/ScrollSpin";
+import { motion } from "framer-motion";
 type Props = {
   detail: {
     id: number;
@@ -25,7 +26,7 @@ const SingleExperiance = ({ detail }: Props) => {
   const ref = useRef(null);
 
   return (
-    <li className={styles.singleexp} ref={ref}>
+    <motion.li className={styles.singleexp} ref={ref}>
       <ScrollSpin
         referance={ref}
         class1={styles.class1}
@@ -53,7 +54,7 @@ const SingleExperiance = ({ detail }: Props) => {
           ))}
         </ul>
       </div>
-    </li>
+    </motion.li>
   );
 };
 

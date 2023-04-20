@@ -7,9 +7,9 @@ import {
   Degreeicon,
   Diploma,
   CertIcon,
-} from "../components/Icons/IconComponents/Icons";
-import Metrix from "../components/Metrix/Metrix";
-import EducationTimeLine from "../components/EducationTimeLine/EducationTimeLine";
+} from "../../components/Icons/IconComponents/Icons";
+import Metrix from "../../components/Metrix/Metrix";
+import EducationTimeLine from "../../components/EducationTimeLine/EducationTimeLine";
 
 type Props = {};
 

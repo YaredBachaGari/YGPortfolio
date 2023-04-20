@@ -1,8 +1,8 @@
 export const navContent = [
   { id: 1, text: "Home", to: "/" },
   { id: 2, text: "Projects", to: "/projects" },
-  { id: 3, text: "Researches", to: "/researches" },
-  { id: 4, text: "Certificate", to: "/certificates" },
+  { id: 3, text: "Certificates", to: "/certificates" },
+  { id: 4, text: "Contact", to: "/contactme" },
 ];
 export const heroContent = {
   heroHeader:
@@ -194,5 +194,5 @@ export const AllLinks = {
   email1: "yaredbacha@gmail.com",
   email2: "yaredbacha45@gmail.com",
   location: "Seattle, WA",
-  phone:"+1 206 641 0154"
+  phone: "+1 206 641 0154",
 };

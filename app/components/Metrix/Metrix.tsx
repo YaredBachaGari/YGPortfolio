@@ -1,6 +1,9 @@
+'use client'
 import React from "react";
 import { PlusBtnAloneIcon } from "../Icons/IconComponents/Icons";
 import styles from "./Metrix.module.css";
+import AnimatedKPI from "../AnimatedKPI/AnimatedKPI";
+import { motion } from "framer-motion";
 
 type Props = {
   value: number;
@@ -23,7 +26,10 @@ const Metrix = ({
 }: Props) => {
   return (
     <div className={className}>
-      <p className={classOne}>{`${value}${exact ? "" : "+"}`}</p>
+      <motion.p className={classOne} whileHover={{y:-5}}>
+        <AnimatedKPI value={value} />
+        {exact ? "" : "+"}
+      </motion.p>
       <p className={classTwo}>{indicator}</p>
     </div>
   );

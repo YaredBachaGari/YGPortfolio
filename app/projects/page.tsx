@@ -1,8 +1,13 @@
 import React from "react";
-import styles from "./home.module.css"
+import styles from "./home.module.css";
+import AnimatedHeader from "../components/AnimatedHeader/AnimatedHeader";
 
-const Home = () => {
-  return <div className={styles.homecontainer}>page</div>;
+const ProjectsPage = () => {
+  return (
+    <div className={styles.homecontainer}>
+      <AnimatedHeader text="Projects" />
+    </div>
+  );
 };
 
-export default Home;
+export default ProjectsPage;

@@ -1,29 +1,66 @@
 .variantOne {
   border: none;
   background-color: var(--tertiarybgcolor);
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   font-size: var(--primarytextfont);
   color: var(--secondarycolor);
   transition: background-color 1.5s ease;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .variantTwo {
   border: none;
   border: 0.25px solid var(--primarycolor);
   background: none;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   font-size: var(--primarytextfont);
-  border: .25px solid var(--primarycolor);
+  border: 0.25px solid var(--primarycolor);
   transition: background-color 1.5s ease;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .variantOne:hover {
   background-color: var(--quaternarybgcolor);
-  
 }
 .variantTwo:hover {
   background-color: var(--quaternarybgcolor);
   color: var(--secondarycolor);
+}
+
+.innerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.linkContainer {
+  color: inherit;
+  text-decoration: inherit;
+}
+.buttonlabel {
+  padding-left: 0.5rem;
+}
+
+.buttonContainer {
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.primaryIcon {
+  margin: auto 0.25rem auto 0;
+}
+.secondaryIcon {
+  margin: auto 0.25rem auto 0;
+}
+.primaryIcon path {
+  fill: var(--secondarycolor);
+}
+
+.secondaryIcon path {
+  fill: var(--primarycolor);
+  margin: auto 0.5rem auto 0;
+}
+
+.buttonContainer:hover .secondaryIcon path {
+  fill: var(--secondarycolor);
 }

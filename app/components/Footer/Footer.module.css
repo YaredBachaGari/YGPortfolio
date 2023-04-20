@@ -16,6 +16,7 @@
 .footerTextContainer {
   /* height: 320px; */
   background-color: var(--quaternarybgcolor);
+  opacity: 94%;
 }
 .content {
   display: flex;
@@ -28,8 +29,8 @@
 .copyright {
   color: var(--secondarycolor);
   font-size: var(--secondarytextfont);
-  text-align: center;
-  padding: 1rem 0;
+  text-align: end;
+  padding: 1rem 4rem 1rem;
 }
 .contactme {
   text-decoration: underline 5px solid var(--tertiarycolor);
@@ -54,8 +55,7 @@
   text-decoration: inherit;
 }
 .contactmeleft a:hover {
-  text-decoration: underline 3px solid var(--tertiarycolor);
-  text-underline-offset: 3px;
+  color: var(--tertiarycolor);
 }
 .infocontainer {
   display: flex;
@@ -63,7 +63,25 @@
   align-items: center;
   padding: 0.5rem 0;
 }
-.iconText{
-    padding-left: 1rem;
-    font-size: var(--secondarytextfont);
+.iconText {
+  padding-left: 1rem;
+  font-size: var(--secondarytextfont);
 }
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-self: flex-start;
+}
+
+.social a {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.social a:hover {
+   color: var(--tertiarycolor);
+  }

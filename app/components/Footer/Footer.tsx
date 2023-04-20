@@ -1,20 +1,33 @@
-import React from "react";
+"use client";
 import styles from "./Footer.module.css";
-import Image from "next/image";
 import foot1 from "../../../public/images/worldimg.avif";
 import { AllLinks } from "../../../public/Alltext";
+import { motion } from "framer-motion";
 import {
   EmailIcon,
   PhoneIcon,
   LocationIcon,
   LinkedinIcon,
   Github,
+  TwitterIcon,
+  InstagramIcon,
+  FacebookIcon,
 } from "../../components/Icons/IconComponents/Icons";
 import Link from "next/link";
 
-type Props = {};
+const YearPicker =()=>{
+  let displayYear;
+  const thisYear = new Date().getFullYear();
+  if (thisYear > 2023) {
+    return (displayYear = `2023 - ${thisYear}`);
+  } else {
+    displayYear = thisYear;
+  }
+  return displayYear
+}
 
-const Footer = (props: Props) => {
+const Footer = () => {
+
   return (
     <div className={styles.footerContainer}>
       <div className={styles.innerContainer}>
@@ -25,53 +38,100 @@ const Footer = (props: Props) => {
               <ul className={styles.contactmeleft}>
                 <li className={styles.infocontainer}>
                   <EmailIcon className={styles.iconcomponent} />
-                  <span className={styles.iconText}>
+                  <motion.span
+                    className={styles.iconText}
+                    whileHover={{ scale: 1.1 }}
+                  >
                     <Link href={`mailto:${AllLinks.email1}`} target="_blank">
-                      Email
+                      {AllLinks.email1}
                     </Link>
-                  </span>
+                  </motion.span>
                 </li>
                 <li className={styles.infocontainer}>
                   <PhoneIcon className={styles.iconcomponent} />
-                  <span className={styles.iconText}>{AllLinks.phone}</span>
+                  <motion.span
+                    className={styles.iconText}
+                    whileHover={{ scale: 1.1 }}
+                  >
+                    {AllLinks.phone}
+                  </motion.span>
                 </li>
                 <li className={styles.infocontainer}>
                   <LocationIcon className={styles.iconcomponent} />
-                  <span className={styles.iconText}>{AllLinks.location}</span>
+                  <motion.span
+                    className={styles.iconText}
+                    whileHover={{ scale: 1.1 }}
+                  >
+                    {AllLinks.location}
+                  </motion.span>
                 </li>
                 <li className={styles.infocontainer}>
                   <LinkedinIcon className={styles.iconcomponent} />
-                  <span className={styles.iconText}>
+                  <motion.span
+                    className={styles.iconText}
+                    whileHover={{ scale: 1.1 }}
+                  >
                     <Link href={AllLinks.Linkedin} target="_blank">
                       Linkedin
                     </Link>
-                  </span>
+                  </motion.span>
                 </li>
                 <li className={styles.infocontainer}>
                   <Github className={styles.iconcomponent} />
-                  <span className={styles.iconText}>
+                  <motion.span
+                    className={styles.iconText}
+                    whileHover={{ scale: 1.1 }}
+                  >
                     <Link href={AllLinks.github} target="_blank">
                       GitHub
                     </Link>
-                  </span>
+                  </motion.span>
                 </li>
               </ul>
             </div>
             <div className={styles.divider}></div>
-
-            <div className={styles.contactme}>
-              <div className={styles.social}>
-                <p>SOCIAL MEDIA</p>
-                <ul>
-                  <li className={styles.infocontainer}>twitter</li>
-                  <li className={styles.infocontainer}>Instagram</li>
-                  <li className={styles.infocontainer}>faceebook</li>
-                </ul>
-              </div>
+            <div className={styles.social}>
+              <p className={styles.contactme}>SOCIAL MEDIA</p>
+              <ul className={styles.contactmeright}>
+                <li className={styles.infocontainer}>
+                  <TwitterIcon />
+                  <motion.span
+                    className={styles.iconText}
+                    whileHover={{ scale: 1.1 }}
+                  >
+                    <Link href={AllLinks.twitter} target="_blank">
+                      Twitter
+                    </Link>
+                  </motion.span>
+                </li>
+                <li className={styles.infocontainer}>
+                  <InstagramIcon />
+                  <motion.span
+                    className={styles.iconText}
+                    whileHover={{ scale: 1.1 }}
+                  >
+                    <Link href={AllLinks.instagram} target="_blank">
+                      Instagram
+                    </Link>
+                  </motion.span>
+                </li>
+                <li className={styles.infocontainer}>
+                  <FacebookIcon />
+                  <motion.span
+                    className={styles.iconText}
+                    whileHover={{ scale: 1.1 }}
+                  >
+                    <Link href={AllLinks.facebook} target="_blank">
+                      Facebook
+                    </Link>
+                  </motion.span>
+                </li>
+              </ul>
             </div>
           </div>
           <div className={styles.copyright}>
-            &copy;2023 Designed and Implemented by Yared Gari
+            Designed and Implemented by Yared Gari | {YearPicker()} &copy; All
+            Rights Reserved.
           </div>
         </div>
       </div>

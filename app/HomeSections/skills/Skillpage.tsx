@@ -29,12 +29,13 @@ import {
   Teaching,
   TeamWork,
   Research,
-} from "../components/Icons/IconComponents/Icons";
-import SkillWrapper from "../components/SkillWrapper/SkillWrapper";
+  Brain,
+} from "../../components/Icons/IconComponents/Icons";
+import SkillWrapper from "../../components/SkillWrapper/SkillWrapper";
 
 type Props = {};
 
-const page = (props: Props) => {
+const SkillPage = (props: Props) => {
   return (
     <div className={styles.skillContainer}>
       <h2 className={styles.skillsHeader}>SKILLS</h2>
@@ -142,4 +143,4 @@ const page = (props: Props) => {
   );
 };
 
-export default page;
+export default SkillPage;

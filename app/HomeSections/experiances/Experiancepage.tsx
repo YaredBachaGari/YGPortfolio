@@ -4,9 +4,10 @@ import styles from "./experiance.module.css";
 import {
   PlusCircularBtn,
   CloseBtnCircular,
-} from "../components/Icons/IconComponents/Icons";
-import Metrix from "../components/Metrix/Metrix";
-import ExperianceTimeLine from "../components/ExperianceTimeLine/ExpTimeLine";
+} from "../../components/Icons/IconComponents/Icons";
+import Metrix from "../../components/Metrix/Metrix";
+import ExperianceTimeLine from "../../components/ExperianceTimeLine/ExpTimeLine";
+import AnimatedKPI from "../../components/AnimatedKPI/AnimatedKPI";
 
 type Props = {};
 

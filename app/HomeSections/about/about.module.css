@@ -69,9 +69,6 @@
   margin: 1rem 0;
 }
 
-.floorContainer {
-}
-
 .floor {
   position: absolute;
   right: 0;
@@ -80,12 +77,15 @@
   transform: translateX(60px) skewX(-70deg);
 }
 .resumelink {
-  display: inline-block;
-  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
   background: transparent;
   border: 0.5px solid var(--primarybgcolor);
   color: var(--secondarycolor);
-  width: auto;
+  font-size: var(--primarytextfont);
 }
 .resumelink a {
   text-decoration: inherit;

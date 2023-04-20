@@ -5,6 +5,7 @@
 .educationheader {
   color: var(--tertiarycolor);
   font-size: var(--secondaryheaderfont);
+  margin-bottom: 6rem;
 }
 
 .toggleOn {

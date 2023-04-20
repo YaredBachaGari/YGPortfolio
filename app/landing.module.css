@@ -23,8 +23,7 @@
   padding: 1rem;
 }
 .btn {
-  margin-right: 2rem;
-  text-align: center;
+  padding-right: 1rem;
 }
 
 .wifiIcon {
@@ -40,12 +39,7 @@
   fill: var(--primarycolor);
   margin: auto 0.5rem auto 0;
 }
-/* .btn:hover {
-  .computerIcon path {
-    fill: var(--secondarycolor);
-  }
-} */
 
 .btn:hover .computerIcon path {
-    fill: var(--secondarycolor);
-  }
+  fill: var(--secondarycolor);
+}

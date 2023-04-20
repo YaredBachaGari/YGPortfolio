@@ -5,7 +5,7 @@ import "tippy.js/dist/tippy.css";
 import "tippy.js/animations/scale.css";
 import styles from "./SkillWrapper.module.css";
 import { useInView } from "react-intersection-observer";
-import { useAnimation, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 type Props = {
   children?: React.ReactNode;

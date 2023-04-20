@@ -13,41 +13,62 @@ import {
 } from "./components/Icons/IconComponents/Icons";
 import { heroContent } from "../public/Alltext";
 import AnimatedHeader from "./components/AnimatedHeader/AnimatedHeader";
+import Aboutpage from "./HomeSections/about/Aboutpage";
+import SkillPage from "./HomeSections/skills/Skillpage";
+import Experiance from "./HomeSections/experiances/Experiancepage";
+import Educations from "./HomeSections/educations/Educationpage";
 
 export const metadata: Metadata = {
   title: metaContent.home.title || "home",
   description: metaContent.home.desc || "home page",
 };
-export default function Home() {
-  //heroHeader  herodesc
+export default function HomePage() {
   return (
-    <main className={styles["landing-container"]}>
-      <div className={styles.herocontainer}>
-        <AnimatedHeader
-          text={heroContent.heroHeader}
-          className={styles.heroheader}
-        />
-        <p className={styles.herodesc}>{heroContent.herodesc}</p>
-        <div className={styles.herobtns}>
-          <div className={styles.btn}>
-            <Button
-              label="Get in touch"
-              variant="primary"
-              icon={<WifiIcon className={styles.wifiIcon} />}
-            />
-          </div>
-          <div className={styles.btn}>
-            <Button
-              label="My Works"
-              variant="secondary"
-              icon={<ComputerIcon className={styles.computerIcon} />}
-            />
+    <>
+      <main className={styles["landing-container"]}>
+        <div className={styles.herocontainer}>
+          <AnimatedHeader
+            text={heroContent.heroHeader}
+            className={styles.heroheader}
+          />
+          <p className={styles.herodesc}>{heroContent.herodesc}</p>
+          <div className={styles.herobtns}>
+            <div className={styles.btn}>
+              <Button
+                label="Get in touch"
+                variant="primary"
+                type="link"
+                icon={<WifiIcon className={styles.wifiIcon} />}
+                to="/contactme"
+              />
+            </div>
+            <div className={styles.btn}>
+              <Button
+                label="My Works"
+                variant="secondary"
+                icon={<ComputerIcon className={styles.computerIcon} />}
+                type="link"
+                to="/projects"
+              />
+            </div>
           </div>
         </div>
-      </div>
-      <div className="">
-        <Image src={developer} alt="Yared's photo" width={400} priority />
-      </div>
-    </main>
+        <div className="">
+          <Image src={developer} alt="Yared's photo" width={400} priority />
+        </div>
+      </main>
+      <section>
+        <Aboutpage />
+      </section>
+      <section>
+        <SkillPage />
+      </section>
+      <section>
+        <Experiance />
+      </section>
+      <section>
+        <Educations />
+      </section>
+    </>
   );
 }

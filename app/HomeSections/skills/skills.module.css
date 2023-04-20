@@ -1,6 +1,10 @@
 .skillContainer {
   margin: 4rem 5% 4rem 5%;
   padding: 1rem;
+  position: relative;
+}
+.brain{
+  position: absolute;
 }
 .skillsHeader {
   color: var(--tertiarycolor);
