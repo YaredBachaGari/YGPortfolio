@@ -1,4 +1,12 @@
-.projectheader {
+.researchPageContainer {
+  width: 90vw;
+  margin: 4rem 5%;
+}
+.researchheader {
   display: flex;
   align-items: center;
+}
+.headerIcon {
+  width: 3rem;
+  height: 3rem;
 }

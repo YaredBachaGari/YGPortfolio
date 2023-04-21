@@ -1,0 +1,58 @@
+.cardContainer {
+  width: 400px;
+  height: 550px;
+  background-color: var(--purewhite);
+  margin: 1rem 0;
+}
+.projecttitle {
+  font-weight: var(--medium);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+.textcontainer {
+  padding: 0.5rem;
+}
+.projectdesc {
+  font-size: var(--secondarytextfont);
+  padding: 0.5rem 0;
+  height: 6rem;
+}
+.teckstacks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+.buttoncontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.innerbtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.2px solid var(--primarycolor);
+  padding: 0.2rem 0.5rem;
+}
+.innerbtn a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.innerbtn:hover {
+  cursor: pointer;
+  background-color: var(--tertiarybgcolor);
+  color: var(--purewhite);
+}
+.innerbtn a:hover {
+  scale: 1.05;
+}
+.cardlinksText {
+  font-size: var(--secondarytextfont);
+  padding-left: 0.25rem;
+}
+
+.innerbtn:hover .smallweb path{
+    fill:var(--purewhite)
+
+}

@@ -1,4 +1,17 @@
+.projectPageContainer{
+  width: 90vw;
+  margin: 4rem 5%;
+}
 .projectheader {
   display: flex;
   align-items: center;
+}
+
+.projectcardContainer{
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }

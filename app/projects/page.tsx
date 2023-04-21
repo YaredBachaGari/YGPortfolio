@@ -4,7 +4,7 @@ import AnimatedHeader from "../components/AnimatedHeader/AnimatedHeader";
 
 const ProjectsPage = () => {
   return (
-    <div className={styles.homecontainer}>
+    <div className={""}>
       <AnimatedHeader text="Projects" />
     </div>
   );

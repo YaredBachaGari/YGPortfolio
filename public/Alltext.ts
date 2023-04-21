@@ -196,3 +196,208 @@ export const AllLinks = {
   location: "Seattle, WA",
   phone: "+1 206 641 0154",
 };
+
+// | "nextjs"
+// | "typscript"
+// | "react"
+// | "redux"
+// | "tailwind"
+// | "jest"
+// | "javascript"
+// | "sequelize"
+// | "mysql"
+// | "nodejs"
+// | "expressjs"
+// | "css"
+// | "sqlite"
+// | "postgres"
+// | "aws";
+
+export const Allwebprojects = [
+  {
+    id: 1,
+    cardImg: "/images/table.jpeg",
+    projectTitle: "My personal portfolio",
+    projectdesc:
+    "This project is a personal website to show case my skill and present who i am as a developer. This web app is also developed by using the following tech-stacks:",
+    techstack: [
+      {
+        id: 1,
+        techname: "nextjs",
+      },
+      {
+        id: 2,
+        techname: "typscript",
+      },
+      {
+        id: 3,
+        techname: "css",
+      },
+      {
+        id: 4,
+        techname: "javascript",
+      },
+      {
+        id: 5,
+        techname: "tailwind",
+      },
+    ],
+    weblink: "#",
+    githublink: "#",
+  },
+  {
+    id: 2,
+    cardImg: "/images/table.jpeg",
+    projectTitle: "My personal portfolio",
+    projectdesc:
+      "This project is a personal website to show case my skill and present who i am. developed by using:",
+    techstack: [
+      {
+        id: 1,
+        techname: "nextjs",
+      },
+      {
+        id: 2,
+        techname: "typscript",
+      },
+      {
+        id: 3,
+        techname: "css",
+      },
+      {
+        id: 4,
+        techname: "javascript",
+      },
+      {
+        id: 5,
+        techname: "tailwind",
+      },
+    ],
+    weblink: "#",
+    githublink: "#",
+  },
+  {
+    id: 3,
+    cardImg: "/images/table.jpeg",
+    projectTitle: "My personal portfolio",
+    projectdesc:
+      "This project is a personal website to show case my skill and present who i am. developed by using:",
+    techstack: [
+      {
+        id: 1,
+        techname: "nextjs",
+      },
+      {
+        id: 2,
+        techname: "typscript",
+      },
+      {
+        id: 3,
+        techname: "css",
+      },
+      {
+        id: 4,
+        techname: "javascript",
+      },
+      {
+        id: 5,
+        techname: "tailwind",
+      },
+    ],
+    weblink: "#",
+    githublink: "#",
+  },
+  {
+    id: 4,
+    cardImg: "/images/CodeKeyBoard.jpeg",
+    projectTitle: "My personal portfolio",
+    projectdesc:
+      "This project is a personal website to show case my skill and present who i am. developed by using:",
+    techstack: [
+      {
+        id: 1,
+        techname: "nextjs",
+      },
+      {
+        id: 2,
+        techname: "typscript",
+      },
+      {
+        id: 3,
+        techname: "css",
+      },
+      {
+        id: 4,
+        techname: "javascript",
+      },
+      {
+        id: 5,
+        techname: "tailwind",
+      },
+    ],
+    weblink: "#",
+    githublink: "#",
+  },
+  {
+    id: 5,
+    cardImg: "/images/CodeKeyBoard.jpeg",
+    projectTitle: "My personal portfolio",
+    projectdesc:
+      "This project is a personal website to show case my skill and present who i am. developed by using:",
+    techstack: [
+      {
+        id: 1,
+        techname: "nextjs",
+      },
+      {
+        id: 2,
+        techname: "typscript",
+      },
+      {
+        id: 3,
+        techname: "css",
+      },
+      {
+        id: 4,
+        techname: "javascript",
+      },
+      {
+        id: 5,
+        techname: "tailwind",
+      },
+    ],
+    weblink: "#",
+    githublink: "#",
+  },
+  {
+    id: 6,
+    cardImg: "/images/CodeKeyBoard.jpeg",
+    projectTitle: "My personal portfolio",
+    projectdesc:
+      "This project is a personal website to show case my skill and present who i am as a developer. This web app is also developed by using:",
+    techstack: [
+      {
+        id: 1,
+        techname: "nextjs",
+      },
+      {
+        id: 2,
+        techname: "typscript",
+      },
+      {
+        id: 3,
+        techname: "css",
+      },
+      {
+        id: 4,
+        techname: "javascript",
+      },
+      {
+        id: 5,
+        techname: "tailwind",
+      },
+    ],
+    weblink: "#",
+    githublink: "#",
+  },
+];

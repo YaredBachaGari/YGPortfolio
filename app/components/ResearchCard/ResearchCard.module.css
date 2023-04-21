@@ -1,0 +1,23 @@
+.innerContainer{
+    width:100vw;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap:1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.leftdiv{
+    width: 100%;
+    display: inline-block;
+    padding: 2rem 0 2rem 2rem;
+}
+.rightdiv{
+    width: 100%;
+    display: inline;
+}
+.papertitle{
+    font-weight: var(--normalmedium);
+    text-transform: capitalize;
+    font-size: var(--quaternaryheaderfont);
+    font-style: italic;
+}
