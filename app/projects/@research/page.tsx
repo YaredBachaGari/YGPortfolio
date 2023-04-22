@@ -1,23 +1,31 @@
 import React from "react";
 import AnimatedHeader from "@/app/components/AnimatedHeader/AnimatedHeader";
 import { Research } from "@/app/components/Icons/IconComponents/Icons";
-import styles from "./research.module.css"
+import styles from "./research.module.css";
 import ResearchCard from "@/app/components/ResearchCard/ResearchCard";
+import { ResearchProjects } from "@/public/Alltext";
 
 type Props = {};
 
 const Researchpage = (props: Props) => {
   return (
     <div className={styles.researchPageContainer}>
-      <h2>
+      <div className={styles.categoryheader}>
         <span className={styles.researchheader}>
           <span>
-            <Research  className={styles.headerIcon}/>
+            <Research className={styles.headerIcon} />
           </span>{" "}
-          Published Reseaches
+          <AnimatedHeader
+            text="Published Reseaches"
+            className={styles.fontadjust}
+          />
         </span>
-      </h2>
-      <ResearchCard/>
+      </div>
+      <div className={styles.cardcontainer}>
+        {
+          ResearchProjects.map(proj=>(<ResearchCard key={proj.id} project = {proj}/>))
+        }    
+      </div>
     </div>
   );
 };

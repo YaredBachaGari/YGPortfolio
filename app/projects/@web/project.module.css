@@ -2,9 +2,25 @@
   width: 90vw;
   margin: 4rem 5%;
 }
+.categoryheader{
+  color: var(--tertiarycolor);
+  margin-bottom: 4rem;
+  font-weight: var(--bold);
+  font-size: var(--primaryheaderfont);
+}
 .projectheader {
   display: flex;
   align-items: center;
+}
+.fontadjust{
+  font-size: var(--primaryheaderfont) !important;
+}
+.webicons{
+  width: 2rem;
+  height: 2rem;
+}
+.webicons path{
+  fill: var(--tertiarycolor);
 }
 
 .projectcardContainer{

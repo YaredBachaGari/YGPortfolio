@@ -219,7 +219,7 @@ export const Allwebprojects = [
     cardImg: "/images/table.jpeg",
     projectTitle: "My personal portfolio",
     projectdesc:
-    "This project is a personal website to show case my skill and present who i am as a developer. This web app is also developed by using the following tech-stacks:",
+      "This project is a personal website to show case my skill and present who i am as a developer. This web app is also developed by using the following tech-stacks:",
     techstack: [
       {
         id: 1,
@@ -399,5 +399,29 @@ export const Allwebprojects = [
     ],
     weblink: "#",
     githublink: "#",
+  },
+];
+
+export const ResearchProjects = [
+  {
+    id: 1,
+    title:
+      "Quantifying the United Nations’ Watercourse Convention Indicators to Inform Equitable Transboundary River Sharing: Application to the Nile River Basin",
+    Authors: "Yared Gari 1,*, Paul Block, Getachew Assefa, Muluneh Mekonnen and Seifu A. Tilahun",
+    journal: "Water",
+    yearpublished: "8 September 2020",
+    link: "https://www.mdpi.com/2073-4441/12/9/2499",
+    coverimg: "/images/paper1.jpeg",
+    status:true
+  },
+  {
+    id: 2,
+    title: "Developing an Approach for Equitable and Reasonable Sharing of International Rivers:  the Nile River",
+    Authors: "Yared Gari, Paul Block, Tammo S. Steenhuis, Muluneh Mekonnen, Getachew Assefa, Abebe Kidus Ephrem, Yared Bayissa, and Seifu Tilahun",
+    journal: "Journal of Hydrology",
+    yearpublished: "2023",
+    link: "",
+    coverimg: "/images/paper2.jpeg",
+    status:false
   },
 ];

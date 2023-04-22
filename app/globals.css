@@ -8,7 +8,7 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --font-color: 218, 42, 42;
-  --project-fonts: "Nosifer", cursive;
+  --project-fonts: Montserrat,"Nosifer", cursive;
   /* text and header font size */
   --kpi: 72px;
   --logoheading: 40px;
@@ -36,6 +36,10 @@
   --tertiarycolor: #ec5940;
   --quaternarycolor: #777882;
   --purewhite: #ffffff;
+
+  /* coursel heigh and width */
+  --heights: 95vh;
+  --widths: 100%;
 }
 
 * {

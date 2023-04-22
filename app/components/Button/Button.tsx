@@ -53,13 +53,13 @@ const Button = ({
   }
   return (
     <button
+      type="submit"
       className={`${className} ${
         variant === "primary" ? styles.variantOne : styles.variantTwo
       }`}
     >
       <span>{icon}</span>
-      {type ? direct : label}
-      {}
+      {label}
     </button>
   );
 };

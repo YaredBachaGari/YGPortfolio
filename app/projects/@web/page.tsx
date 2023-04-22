@@ -10,14 +10,17 @@ type Props = {};
 const WebPage = (props: Props) => {
   return (
     <div className={styles.projectPageContainer}>
-      <h2>
+      <div className={styles.categoryheader}>
         <span className={styles.projectheader}>
           <span>
-            <WebIcon />
+            <WebIcon className={styles.webicons} />
           </span>{" "}
-          Web Development
+          <AnimatedHeader
+            text="Web Development"
+            className={styles.fontadjust}
+          />
         </span>
-      </h2>
+      </div>
       <div>
         <ul className={styles.projectcardContainer}>
           {Allwebprojects.map((project) => (

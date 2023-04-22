@@ -1,13 +1,9 @@
 import React from "react";
-import styles from "./home.module.css";
+import styles from "./projects.module.css";
 import AnimatedHeader from "../components/AnimatedHeader/AnimatedHeader";
 
 const ProjectsPage = () => {
-  return (
-    <div className={""}>
-      <AnimatedHeader text="Projects" />
-    </div>
-  );
+  return <></>;
 };
 
 export default ProjectsPage;

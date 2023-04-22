@@ -1,5 +1,5 @@
 .homecontainer{
-    background-color: #ebe6e6;
+    background-color: var(--primarybgcolor);
     min-height: 50vh;
     padding: 2rem 5% 2rem 5%;
 }

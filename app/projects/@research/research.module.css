@@ -1,12 +1,26 @@
 .researchPageContainer {
-  width: 90vw;
   margin: 4rem 5%;
+  padding: 0 1rem;
+}
+.cardcontainer {
+  width: 100%;
+}
+.categoryheader{
+  color: var(--tertiarycolor);
+  margin-bottom: 4rem;
+  font-weight: var(--bold);
+  
 }
 .researchheader {
   display: flex;
   align-items: center;
+  text-align: center;
+}
+.fontadjust{
+  font-size: var(--primaryheaderfont) !important;
 }
 .headerIcon {
   width: 3rem;
   height: 3rem;
 }
+
