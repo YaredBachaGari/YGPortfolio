@@ -96,7 +96,7 @@ const ProjectCard = ({ carddetail }: Props) => {
     carddetail;
   return (
     <li className={styles.cardContainer}>
-      <Image src={cardImg} alt="tech Icon" width={400} height={250} />
+      <Image src={cardImg} alt="tech Icon" width={400} height={250} priority />
       <div className={styles.textcontainer}>
         <p className={styles.projecttitle}>{projectTitle}</p>
         <p className={styles.projectdesc}>{projectdesc}</p>
@@ -127,7 +127,13 @@ const ProjectCard = ({ carddetail }: Props) => {
             Github
           </Link>
         </div>
-        <Image src={dotart} alt="dot pattern" width={115} height={84} />
+        <Image
+          src={dotart}
+          alt="dot pattern"
+          width={115}
+          height={84}
+          priority
+        />
       </div>
     </li>
   );

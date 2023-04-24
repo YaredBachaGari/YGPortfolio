@@ -83,5 +83,21 @@
 }
 
 .social a:hover {
-   color: var(--tertiarycolor);
+  color: var(--tertiarycolor);
+}
+
+@media screen and (max-width:750px) {
+  .content{
+    flex-direction: column;
+    align-items: center;
   }
+  .divider{
+    display: none;
+  }
+  .infocontainer{
+    justify-content: center;
+  }
+  .contactme{
+    text-align: center;
+  }
+}

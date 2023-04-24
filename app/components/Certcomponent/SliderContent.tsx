@@ -21,6 +21,7 @@ function SliderContent({ activeIndex, sliderImage }: Props) {
             alt="certificates"
             width={2000}
             height={2000}
+            priority
           />
           {/* <h2 className={styles["slide-title"]}>{slide.title}</h2>
           <h3 className={styles["slide-text"]}>{slide.description}</h3> */}

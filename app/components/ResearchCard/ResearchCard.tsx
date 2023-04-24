@@ -57,7 +57,7 @@ const ResearchCard = ({ project }: Props) => {
         </Link>
       </div>
       <div className={styles.rightdiv}>
-        <Image src={imgur} alt="article image" width={300} height={300} />
+        <Image src={imgur} alt="article image" width={300} height={300} priority/>
       </div>
     </div>
   );

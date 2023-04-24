@@ -15,19 +15,19 @@ import {
 } from "../../components/Icons/IconComponents/Icons";
 import Link from "next/link";
 
-const YearPicker =()=>{
-  let displayYear;
+const YearPicker = () => {
+  let displayYear: number | string;
   const thisYear = new Date().getFullYear();
   if (thisYear > 2023) {
-    return (displayYear = `2023 - ${thisYear}`);
+    displayYear = `2023 - ${thisYear}`;
+    return displayYear;
   } else {
     displayYear = thisYear;
   }
-  return displayYear
-}
+  return displayYear;
+};
 
 const Footer = () => {
-
   return (
     <div className={styles.footerContainer}>
       <div className={styles.innerContainer}>
