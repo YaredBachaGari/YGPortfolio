@@ -1,5 +1,6 @@
 import { Montserrat, Architects_Daughter, Poppins } from "next/font/google";
 import type { Metadata } from "next";
+import TransitionEffect from "../components/TransitionEffect/TransitionEffect";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -21,6 +22,7 @@ export default function ProjectLayout({
 }) {
   return (
     <section className={`${montserrat.className}`}>
+      <TransitionEffect/>
       {children}
       <div>{web}</div>
       <div>{research}</div>

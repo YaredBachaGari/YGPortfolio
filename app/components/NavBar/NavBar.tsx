@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./NavBar.module.css";
 import { navContent } from "../../../public/Alltext";
 import Link from "next/link";
@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import CustomLink from "../CustomLink/CustomLink";
 import { MenuIcon, CloseIcon } from "../Icons/IconComponents/Icons";
+import { useRouter } from "next/navigation";
 
 const monoton = Monoton({
   weight: "400",
@@ -19,9 +20,35 @@ const monoton = Monoton({
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
+  const router = useRouter();
+  const [screenSize, setScreenSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
+  const handleRouting = () => {
+    setIsOpen(false);
+  };
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <nav className={styles.navOuterContainer}>
-      <div className={styles.navinnerContainer}>
+      <div
+        className={`${styles.navinnerContainer} 
+        ${isOpen && screenSize.width > 900 && styles.removeMenuSidebar}`}
+      >
         <motion.div
           className={`${styles.logo} ${monoton.className}`}
           whileHover={{ scale: 1.5 }}
@@ -29,13 +56,18 @@ const NavBar = () => {
           <Link href="/">YG</Link>
         </motion.div>
 
-        <ul className={styles.menu}>
+        <motion.ul
+          className={`${styles.menu} ${isOpen && styles.mobileview} ${
+            isOpen && screenSize.width > 1000 && styles.shiftToSide
+          }`}
+        >
           {navContent.map((menu) => {
             return (
               <motion.li
                 key={menu.id}
                 className={styles.list}
                 whileHover={{ scale: 1.15 }}
+                onClick={() => handleRouting()}
               >
                 <CustomLink
                   href={menu.to}
@@ -45,19 +77,26 @@ const NavBar = () => {
               </motion.li>
             );
           })}
-        </ul>
+        </motion.ul>
         <div className={styles.humberger}>
           {isOpen ? (
             <CloseIcon
               onClick={() => setIsOpen(!isOpen)}
-              color="black"
+              color={isOpen && screenSize.width > 1000 ? "white" : "black"}
               hoverColor="#ec5940"
             />
           ) : (
-            <MenuIcon
-              className={styles.menuIcon}
-              onClick={() => setIsOpen(!isOpen)}
-            />
+            <motion.div
+              whileTap={{
+                rotate: 360,
+                transition: { duration: 5, ease: "easeOut" },
+              }}
+            >
+              <MenuIcon
+                className={styles.menuIcon}
+                onClick={() => setIsOpen(!isOpen)}
+              />
+            </motion.div>
           )}
         </div>
       </div>

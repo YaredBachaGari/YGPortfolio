@@ -17,6 +17,7 @@ import Aboutpage from "./HomeSections/about/Aboutpage";
 import SkillPage from "./HomeSections/skills/Skillpage";
 import Experiance from "./HomeSections/experiances/Experiancepage";
 import Educations from "./HomeSections/educations/Educationpage";
+import TransitionEffect from "./components/TransitionEffect/TransitionEffect";
 
 export const metadata: Metadata = {
   title: metaContent.home.title || "home",
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
+    <TransitionEffect/>
       <main className={styles["landing-container"]}>
         <div className={styles.herocontainer}>
           <AnimatedHeader

@@ -20,10 +20,9 @@
 
 .list {
   padding: 0 2rem;
-  font-weight: var(--normalmedium);
+  font-weight: var(--medium);
   align-self: center;
 }
-
 
 .logo a {
   text-decoration: inherit;
@@ -44,13 +43,72 @@
   fill: #ec5940;
   transition: background-color 1s ease-out;
 }
-.closeMenu{
+.closeMenu {
   cursor: pointer;
 }
-.closeMenu:hover path{
+.closeMenu:hover path {
   fill: #ec5940 !important;
 }
+.humberger {
+  z-index: 150;
+}
+.shiftToSide {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  right: 0;
+  top: 0;
+  width: 40%;
+  height: 100vh;
+  z-index: 120;
+  padding: 10rem 5%;
 
-@media screen and (max-width:900px) {
+  background-color: var(--quaternarybgcolor);
+  color: white;
+}
+.shiftToSide li {
+  font-size: var(--quaternaryheaderfont);
+  font-weight: var(--medium);
+  margin: 1.5rem 0;
+}
+.shiftToSide li a {
+  color: inherit;
+}
+.removeMenuSidebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+@media screen and (max-width: 1000px) {
+  .navinnerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu {
+    position: absolute;
+    left: -200%;
+  }
+  .mobileview {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    left: 0%;
+    top: 6rem;
+    background-color: var(--primarybgcolor);
+    z-index: 110;
+    height: 90vh;
+    margin-top: 2rem;
+  }
+  .mobileview li {
+    font-size: var(--quaternaryheaderfont);
+    font-weight: var(--medium);
+    margin: 1.5rem 0;
+  }
 }

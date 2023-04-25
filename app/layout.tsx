@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar/NavBar";
 import { Montserrat, Architects_Daughter, Poppins } from "next/font/google";
 import type { Metadata } from "next";
 import Footer from "./components/Footer/Footer";
+import TransitionEffect from "./components/TransitionEffect/TransitionEffect";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${montserrat.className}`}>
         <NavBar />
+        <TransitionEffect/>
         {children}
         <Footer />
       </body>
