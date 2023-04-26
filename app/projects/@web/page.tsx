@@ -21,13 +21,11 @@ const WebPage = (props: Props) => {
           />
         </span>
       </div>
-      <div>
-        <ul className={styles.projectcardContainer}>
-          {Allwebprojects.map((project) => (
-            <ProjectCard key={project.id} carddetail={project} />
-          ))}
-        </ul>
-      </div>
+      <ul className={styles.projectcardContainer}>
+        {Allwebprojects.map((project) => (
+          <ProjectCard key={project.id} carddetail={project} />
+        ))}
+      </ul>
     </div>
   );
 };

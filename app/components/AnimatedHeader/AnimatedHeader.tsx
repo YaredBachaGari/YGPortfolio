@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 type Props = {
   text: string;
   className?: string;
+  className2?: string;
 };
 
 const headeranime = {
@@ -33,9 +34,9 @@ const wordanime = {
   },
 };
 
-const AnimatedHeader = ({ text, className = "" }: Props) => {
+const AnimatedHeader = ({ text, className = "", className2 = "" }: Props) => {
   return (
-    <div>
+    <div className={className2}>
       <motion.h1
         className={`${styles.headeranime} ${className}`}
         variants={headeranime}
@@ -48,8 +49,6 @@ const AnimatedHeader = ({ text, className = "" }: Props) => {
               key={`${word}_${index}`}
               className={styles.words}
               variants={wordanime}
-            //   initial="initial"
-            //   animate="animate"
             >
               {word}&nbsp;
             </motion.span>

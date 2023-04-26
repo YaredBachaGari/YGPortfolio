@@ -1,6 +1,6 @@
 .projectPageContainer{
-  width: 90vw;
-  margin: 4rem 5%;
+  width: 100%;
+  padding: 5rem 5%;
 }
 .categoryheader{
   color: var(--tertiarycolor);
@@ -25,10 +25,10 @@
 }
 
 .projectcardContainer{
-  width: 90vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }

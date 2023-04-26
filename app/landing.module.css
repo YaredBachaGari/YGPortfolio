@@ -16,8 +16,10 @@
   padding: 0 1rem;
   margin-bottom: 4rem;
 }
-.herImage {
+.banner {
+  justify-self: center;
 }
+
 .herobtns {
   display: flex;
   padding: 1rem;
@@ -42,4 +44,112 @@
 
 .btn:hover .computerIcon path {
   fill: var(--secondarycolor);
+}
+@media screen and (max-width: 1325px) {
+  .myphoto {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .myphoto {
+    width: 380px;
+  }
+  .landing-container {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .myphoto {
+    width: 360px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .myphoto {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .myphoto {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .landing-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 5% 4rem 5%;
+  }
+  .myphoto {
+    width: 250px;
+    height: 100%;
+    transform: scaleX(-1);
+  }
+  .banner {
+    align-self: flex-start;
+  }
+  .herocontainer{
+    position: relative;
+  }
+  .headContainer{
+    position: absolute;
+    top: -400px;
+    left: 40%;
+  }
+  .herodesc{
+    text-align: center;
+  }
+  .herobtns{
+    justify-content: center;
+  }
+}
+.landingcover{
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .banner{
+    position: relative;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+  .headContainer{
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+  .myphoto {
+    position: relative;
+    width: 150px;
+    height: 100%;
+    border-radius: 50%;
+    left: 50%;
+    transform: scaleX(1.2) translateX(-50%) translateY(40%);
+    z-index: 10;
+  }
+  .landingcover{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+.herobtns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 2rem; */
+}
+.herobtns .btn{
+margin-bottom: 2rem;
+}
 }

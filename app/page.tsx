@@ -6,6 +6,7 @@ import Button from "./components/Button/Button";
 import styles from "./landing.module.css";
 import Image from "next/image";
 import developer from "../public/images/Yared_Gari_29-removebg-preview.png";
+import banner from "../public/images/macDesktop.jpeg"
 import {
   WifiIcon,
   ComputerIcon,
@@ -26,12 +27,13 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-    <TransitionEffect/>
+      <TransitionEffect />
       <main className={styles["landing-container"]}>
         <div className={styles.herocontainer}>
           <AnimatedHeader
             text={heroContent.heroHeader}
             className={styles.heroheader}
+            className2={styles.headContainer}
           />
           <p className={styles.herodesc}>{heroContent.herodesc}</p>
           <div className={styles.herobtns}>
@@ -55,8 +57,15 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <div className="">
-          <Image src={developer} alt="Yared's photo" width={400} priority />
+        <div className={styles.banner}>
+          <Image
+            src={developer}
+            alt="Yared's photo"
+            width={420}
+            priority
+            className={styles.myphoto}
+          />
+          <Image src={banner} alt="banner" width={500} height={500} className={styles.landingcover}/>
         </div>
       </main>
       <section>

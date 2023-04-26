@@ -25,6 +25,7 @@ const Aboutpage = () => {
             </div>
           </div>
         </div>
+        <div className={styles.circularbackground}></div>
         <div className={styles.bioSection}>
           <div className={styles.biotext}>
             <h2 className={styles.aboutheader}>ABOUT ME</h2>

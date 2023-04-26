@@ -1,4 +1,5 @@
 "use client";
+import { useState, useEffect } from "react";
 import styles from "./ProjectCard.module.css";
 import Image from "next/image";
 import dotart from "../../../public/Icons/dorart.jpeg";
@@ -94,9 +95,32 @@ const LookUp = {
 const ProjectCard = ({ carddetail }: Props) => {
   const { cardImg, projectTitle, projectdesc, techstack, weblink, githublink } =
     carddetail;
+  const [screenSize, setScreenSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <li className={styles.cardContainer}>
-      <Image src={cardImg} alt="tech Icon" width={400} height={250} priority />
+      <Image
+        src={cardImg}
+        alt="tech Icon"
+        width={screenSize.width > 420 ? 400 : 370}
+        height={250}
+        priority
+      />
       <div className={styles.textcontainer}>
         <p className={styles.projecttitle}>{projectTitle}</p>
         <p className={styles.projectdesc}>{projectdesc}</p>
@@ -130,8 +154,8 @@ const ProjectCard = ({ carddetail }: Props) => {
         <Image
           src={dotart}
           alt="dot pattern"
-          width={115}
-          height={84}
+          width={screenSize.width > 420 ? 115 : 90}
+          height={screenSize.width > 420 ? 84 : 60}
           priority
         />
       </div>

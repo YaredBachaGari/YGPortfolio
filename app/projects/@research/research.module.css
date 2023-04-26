@@ -24,4 +24,9 @@
   width: 3rem;
   height: 3rem;
 }
+@media screen and(max-width:420px) {
+  .researchPageContainer{
+    padding: 0 0.2rem;
+  }
+}
 

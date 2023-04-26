@@ -25,7 +25,13 @@ const ResearchCard = ({ project }: Props) => {
     return (
       <div className={styles.innerContainerodd}>
         <div className={styles.rightdivodd}>
-          <Image src={imgur} alt="article image" width={300} height={300} />
+          <Image
+            src={imgur}
+            alt="article image"
+            width={300}
+            height={300}
+            priority
+          />
         </div>
         <div className={`${styles.leftdivodd} ${styles.commontext}`}>
           <p className={styles.papertitle}> {title}</p>
@@ -57,7 +63,13 @@ const ResearchCard = ({ project }: Props) => {
         </Link>
       </div>
       <div className={styles.rightdiv}>
-        <Image src={imgur} alt="article image" width={300} height={300} priority/>
+        <Image
+          src={imgur}
+          alt="article image"
+          width={300}
+          height={300}
+          priority
+        />
       </div>
     </div>
   );

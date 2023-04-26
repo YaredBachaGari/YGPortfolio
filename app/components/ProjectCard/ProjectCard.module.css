@@ -3,6 +3,7 @@
   height: 550px;
   background-color: var(--purewhite);
   margin: 1rem 0;
+  list-style: none;
 }
 .projecttitle {
   font-weight: var(--medium);
@@ -54,5 +55,10 @@
 
 .innerbtn:hover .smallweb path{
     fill:var(--purewhite)
+}
 
+@media screen and (max-width:420px) {
+  .cardContainer{
+    width: 370px;
+  }
 }
