@@ -50,6 +50,7 @@
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 4rem;
+  flex-wrap: wrap;
 }
 
 
@@ -60,4 +61,11 @@
 
 .timeline{
   padding: 3rem 4rem 4rem 4rem;
+}
+
+@media screen and (max-width:580px){
+  .educationContainer{
+    margin: 4rem 0%;
+    padding: 1rem;
+  }
 }

@@ -73,3 +73,9 @@
 .timeline{
     padding: 3rem 4rem 4rem 4rem;
 }
+@media screen and (max-width:580px){
+  .experianceContainer{
+    margin: 6rem 0px 4rem 0px;
+    padding: 1rem;
+  }
+}
