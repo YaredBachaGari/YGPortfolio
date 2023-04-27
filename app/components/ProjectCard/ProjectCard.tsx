@@ -4,33 +4,9 @@ import styles from "./ProjectCard.module.css";
 import Image from "next/image";
 import dotart from "../../../public/Icons/dorart.jpeg";
 import { motion } from "framer-motion";
-import {
-  Github,
-  WebIcon,
-  NextJs,
-  Typescript,
-  Reactjs,
-  Reduxjs,
-  Tailwindcss,
-  Jest,
-  Javascript,
-  Sequelize,
-  Mysql,
-  Postgress,
-  Aws,
-  Azure,
-  Sqlite3,
-  Nodejs,
-  Expressjs,
-  HtmlIcon,
-  CssIcon,
-  Java,
-  Csharp,
-  Python,
-  Docker,
-} from "../Icons/IconComponents/Icons";
-import chair from "../../../public/Icons/table.jpeg";
+import { Github, WebIcon } from "../Icons/IconComponents/Icons";
 import Link from "next/link";
+import Helper from "../Helper/Helper";
 
 type Props = {
   carddetail: {
@@ -38,63 +14,18 @@ type Props = {
     cardImg: string;
     projectTitle: string;
     projectdesc: string;
-    techstack: {
-      id: number;
-      techname:
-        | "nextjs"
-        | "typscript"
-        | "react"
-        | "redux"
-        | "tailwind"
-        | "jest"
-        | "javascript"
-        | "sequelize"
-        | "mysql"
-        | "nodejs"
-        | "expressjs"
-        | "css"
-        | "sqlite"
-        | "postgres"
-        | "aws"
-        | "html"
-        | "docker"
-        | "azure"
-        | "csharp"
-        | "java"
-        | "python";
-    }[];
+    techstack: techname;
     weblink: string;
     githublink: string;
   };
 };
 
-const LookUp = {
-  nextjs: <NextJs />,
-  typscript: <Typescript />,
-  react: <Reactjs />,
-  redux: <Reduxjs />,
-  tailwind: <Tailwindcss />,
-  jest: <Jest />,
-  javascript: <Javascript />,
-  sequelize: <Sequelize />,
-  mysql: <Mysql />,
-  postgres: <Postgress />,
-  aws: <Aws />,
-  azure: <Azure />,
-  sqlite: <Sqlite3 />,
-  nodejs: <Nodejs />,
-  expressjs: <Expressjs />,
-  html: <HtmlIcon />,
-  css: <CssIcon />,
-  csharp: <Csharp />,
-  java: <Java />,
-  python: <Python />,
-  docker: <Docker />,
-};
-
 const ProjectCard = ({ carddetail }: Props) => {
   const { cardImg, projectTitle, projectdesc, techstack, weblink, githublink } =
     carddetail;
+
+  const LookUp = Helper();
+
   const [screenSize, setScreenSize] = useState({
     width: window.innerWidth,
     height: window.innerHeight,

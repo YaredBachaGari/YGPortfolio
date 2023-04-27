@@ -35,7 +35,7 @@ export const metaContent = {
 };
 
 export const bioContent = {
-  p1: "Growing up in Ethiopia, I always had a fascination with engineering. This passion led me to pursue and earn both a bachelor's and master's degree in hydraulic and water resource engineering from Bahir Dar University. During my academic journey, I had the opportunity to teach and mentor numerous undergraduate students and even had my research published in international journals and conferences.",
+  p1: "My name is Yared Gari. Growing up in Ethiopia, I always had a fascination with engineering. This passion led me to pursue and earn both a bachelor's and master's degree in hydraulic and water resource engineering from Bahir Dar University. During my academic journey, I had the opportunity to teach and mentor numerous undergraduate students and even had my research published in international journals and conferences.",
   p2: "Despite my accomplishments in engineering, I couldn't shake off my childhood interest in the IT industry. So, I decided to take a leap of faith and attend two bootcamps to pursue a career as a full-stack software developer. Now, as a junior software engineer at McKinsey & Company, I continue to broaden my skills and contribute to the ever-evolving world of technology. These diverse experiences have given me a unique perspective and approach to problem-solving, and I look forward to making more impactful contributions in the future.",
 };
 
@@ -407,21 +407,205 @@ export const ResearchProjects = [
     id: 1,
     title:
       "Quantifying the United Nations’ Watercourse Convention Indicators to Inform Equitable Transboundary River Sharing: Application to the Nile River Basin",
-    Authors: "Yared Gari 1,*, Paul Block, Getachew Assefa, Muluneh Mekonnen and Seifu A. Tilahun",
+    Authors:
+      "Yared Gari 1,*, Paul Block, Getachew Assefa, Muluneh Mekonnen and Seifu A. Tilahun",
     journal: "Water",
     yearpublished: "8 September 2020",
     link: "https://www.mdpi.com/2073-4441/12/9/2499",
     coverimg: "/images/paper1.jpeg",
-    status:true
+    status: true,
   },
   {
     id: 2,
-    title: "Developing an Approach for Equitable and Reasonable Sharing of International Rivers:  the Nile River",
-    Authors: "Yared Gari, Paul Block, Tammo S. Steenhuis, Muluneh Mekonnen, Getachew Assefa, Abebe Kidus Ephrem, Yared Bayissa, and Seifu Tilahun",
+    title:
+      "Developing an Approach for Equitable and Reasonable Sharing of International Rivers:  the Nile River",
+    Authors:
+      "Yared Gari, Paul Block, Tammo S. Steenhuis, Muluneh Mekonnen, Getachew Assefa, Abebe Kidus Ephrem, Yared Bayissa, and Seifu Tilahun",
     journal: "Journal of Hydrology",
     yearpublished: "2023",
     link: "",
     coverimg: "/images/paper2.jpeg",
-    status:false
+    status: false,
   },
 ];
+
+export const mySkillSet = [
+  {
+    id: 1,
+    type: "frontend",
+    icon: "javascript",
+    skillname: "javascript",
+    proficiencyPerc: "ninety",
+  },
+  {
+    id: 2,
+    type: "frontend",
+    icon: "react",
+    skillname: "react",
+    proficiencyPerc: "ninetyfive",
+  },
+  {
+    id: 3,
+    type: "frontend",
+    icon: "nextjs",
+    skillname: "nextjs",
+    proficiencyPerc: "ninetyfive",
+  },
+  {
+    id: 4,
+    type: "frontend",
+    icon: "typscript",
+    skillname: "typescript",
+    proficiencyPerc: "ninety",
+  },
+  {
+    id: 5,
+    type: "frontend",
+    icon: "redux",
+    skillname: "redux",
+    proficiencyPerc: "ninetyfive",
+  },
+  {
+    id: 6,
+    type: "frontend",
+    icon: "jest",
+    skillname: "jest",
+    proficiencyPerc: "ninety",
+  },
+  {
+    id: 7,
+    type: "frontend",
+    icon: "tailwind",
+    skillname: "tailwind",
+    proficiencyPerc: "ninetyfive",
+  },
+  {
+    id: 8,
+    type: "frontend",
+    icon: "css",
+    skillname: "css",
+    proficiencyPerc: "ninetyfive",
+  },
+  {
+    id: 9,
+    type: "frontend",
+    icon: "html",
+    skillname: "html",
+    proficiencyPerc: "hundred",
+  },
+  {
+    id: 10,
+    type: "backend",
+    icon: "nodejs",
+    skillname: "nodejs",
+    proficiencyPerc: "ninety",
+  },
+  {
+    id: 11,
+    type: "backend",
+    icon: "expressjs",
+    skillname: "expressjs",
+    proficiencyPerc: "ninety",
+  },
+  {
+    id: 12,
+    type: "backend",
+    icon: "sequelize",
+    skillname: "sequelize",
+    proficiencyPerc: "ninety",
+  },
+  {
+    id: 13,
+    type: "backend",
+    icon: "sql",
+    skillname: "sql",
+    proficiencyPerc: "ninety",
+  },
+  {
+    id: 14,
+    type: "backend",
+    icon: "sqlite",
+    skillname: "sqlite",
+    proficiencyPerc: "ninetyfive",
+  },
+  {
+    id: 15,
+    type: "backend",
+    icon: "mysql",
+    skillname: "mysql",
+    proficiencyPerc: "ninetyfive",
+  },
+  {
+    id: 16,
+    type: "backend",
+    icon: "postgres",
+    skillname: "postgres",
+    proficiencyPerc: "ninety",
+  },
+  {
+    id: 17,
+    type: "backend",
+    icon: "docker",
+    skillname: "docker",
+    proficiencyPerc: "ninety",
+  },
+  {
+    id: 18,
+    type: "backend",
+    icon: "aws",
+    skillname: "aws",
+    proficiencyPerc: "eightyfive",
+  },
+  {
+    id: 19,
+    type: "backend",
+    icon: "azure",
+    skillname: "azure",
+    proficiencyPerc: "eightyfive",
+  },
+];
+
+export const softSkillSet =[
+  {
+    id: 1,
+    type: "softskill",
+    icon: "comm",
+    skillname: "Communication",
+    proficiencyPerc: "ninetyfive",
+  },
+  {
+    id: 2,
+    type: "softskill",
+    icon: "team",
+    skillname: "Team Work",
+    proficiencyPerc: "hundred",
+  },
+  {
+    id: 3,
+    type: "softskill",
+    icon: "prob",
+    skillname: "Problem Solving",
+    proficiencyPerc: "ninetyfive",
+  },
+  {
+    id: 4,
+    type: "softskill",
+    icon: "grow",
+    skillname: "Growth Mindset",
+    proficiencyPerc: "hundred",
+  },
+  {
+    id: 5,
+    type: "softskill",
+    icon: "rese",
+    skillname: "Research",
+    proficiencyPerc: "ninetyfive",
+  },
+  {
+    id: 6,
+    type: "softskill",
+    icon: "teac",
+    skillname: "Teaching",
+    proficiencyPerc: "ninetyfive",
+  },
+]

@@ -54,6 +54,7 @@
 .aboutheader {
   color: var(--tertiarycolor);
   font-size: var(--secondaryheaderfont);
+
 }
 .biotext {
   padding: 4rem;
@@ -127,7 +128,7 @@
     z-index: 300;
   }
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 850px) {
   .aboutpageContainer {
     margin: 2rem 0%;
     padding: 2rem 0rem;

@@ -35,7 +35,7 @@ const SkillWrapper = ({ children, className, x, y, title }: Props) => {
     <motion.div
       initial={{ x: "100%", y: "50%", opacity: 0 }}
       whileInView={{ x: x, y: y, opacity: 1, transition: { duration: 0.25 } }}
-      className={styles.wrapper}
+      className={`${styles.wrapper} ${className}`}
       title={title}
       ref={divRef}
     >

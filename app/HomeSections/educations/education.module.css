@@ -5,6 +5,7 @@
 .educationheader {
   color: var(--tertiarycolor);
   font-size: var(--secondaryheaderfont);
+  font-weight: var(--bold);
   margin-bottom: 6rem;
 }
 
@@ -38,11 +39,11 @@
 .metrixnumber {
   font-size: var(--kpi);
 }
-.metrixicon{
+.metrixicon {
   display: flex;
   flex-direction: column;
 }
-.degreeicon{
+.degreeicon {
   margin: 0 auto;
 }
 
@@ -53,18 +54,17 @@
   flex-wrap: wrap;
 }
 
-
 .indicators {
   color: var(--tertiarycolor);
   font-weight: var(--medium);
 }
 
-.timeline{
+.timeline {
   padding: 3rem 4rem 4rem 4rem;
 }
 
-@media screen and (max-width:580px){
-  .educationContainer{
+@media screen and (max-width: 580px) {
+  .educationContainer {
     margin: 4rem 0%;
     padding: 1rem;
   }

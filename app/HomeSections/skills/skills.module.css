@@ -3,18 +3,19 @@
   padding: 1rem;
   position: relative;
 }
-.brain{
+.brain {
   position: absolute;
 }
 .skillsHeader {
   color: var(--tertiarycolor);
   font-size: var(--secondaryheaderfont);
-  padding: 2rem 0 4rem 0;
+  font-weight: var(--bold);
+  padding: 0rem 0 3rem 0;
 }
 .planetcontainer {
   display: grid;
   grid-template-columns: 50% 50%;
-  gap:1.5rem;
+  gap: 1.5rem;
   margin: 1rem 0;
 }
 .firstradial {
@@ -50,6 +51,112 @@
   /* transform: skew(-20deg); */
 }
 
-.archtecture{
-    display: inline;
+.archtecture {
+  display: inline;
+}
+.iconname {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iconnamesoft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scaleX(-1);
+  text-align: center;
+  overflow-wrap: break-word;
+}
+.proeffiency {
+  position: absolute;
+  top: -40px;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(to right, #d0fb72, #023703 80%);
+}
+.proeffiency::before {
+  content: "proficiency level";
+  display: block;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  color: var(--primarycolor);
+  padding: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.skillcategorygroup {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  place-items: center;
+  margin-bottom: 4rem;
+}
+.skillcategory {
+  color: var(--tertiarycolor);
+  font-weight: var(--medium);
+}
+.skillCategoryheading {
+  font-size: var(--tertiaryheaderfont);
+  font-weight: var(--medium);
+  padding: 2rem 0;
+}
+.hardskills {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 4rem;
+}
+.softkills {
+  display: grid;
+  grid-template-columns: 50%;
+}
+.modechanger {
+  position: absolute;
+  right: 0;
+  top: 5.5rem;
+}
+.disablelistview {
+  display: none;
+}
+.changetolistview {
+  display: block;
+}
+.nomapview{
+  display: none !important;
+}
+@media screen and (max-width: 1200px) {
+  .mapview {
+    display: none;
+  }
+  .disablelistview {
+    display: block;
+    width: 90%;
+  }
+
+  .modechanger{
+    display: none;
+  }
+}
+@media screen and (max-width:940px){
+  .hardskills{
+    display: flex;
+    flex-direction: column;
+  }
+  .disablelistview{
+    width: 100%;
+  }
+  .softkills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:625px){
+.icon{
+  display: none;
+}
+.iconnamespace{
+  padding-left: 0;
+}
+  
 }

@@ -17,13 +17,13 @@ const Educations = (props: Props) => {
   const [toggled, setToggled] = useState(false);
   return (
     <div className={styles.educationContainer}>
-      <h2 className={styles.educationheader}>EDUCATION</h2>
+      <h2 className={styles.educationheader}>EDUCATIONS</h2>
       <div className={styles.outerInnerEdu}>
         <div className={styles.keyexp}>
-          {toggled ? (
+          {!toggled ? (
             <>
-              <CloseBtnCircular
-                className={styles.toggleoff}
+              <PlusCircularBtn
+                className={styles.toggleOn}
                 onClick={() => setToggled(!toggled)}
               />
               <div className={styles.timeline}>
@@ -32,8 +32,8 @@ const Educations = (props: Props) => {
             </>
           ) : (
             <>
-              <PlusCircularBtn
-                className={styles.toggleOn}
+              <CloseBtnCircular
+                className={styles.toggleoff}
                 onClick={() => setToggled(!toggled)}
               />
               <div className={styles.maingroup}>

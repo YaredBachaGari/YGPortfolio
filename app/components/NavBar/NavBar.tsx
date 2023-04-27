@@ -22,8 +22,8 @@ const NavBar = () => {
   const pathname = usePathname();
   const router = useRouter();
   const [screenSize, setScreenSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
+    // width: window.innerWidth,
+    // height: window.innerHeight,
   });
 
   const handleRouting = () => {

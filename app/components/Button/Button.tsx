@@ -58,7 +58,7 @@ const Button = ({
         variant === "primary" ? styles.variantOne : styles.variantTwo
       }`}
     >
-      <span>{icon}</span>
+      <span>{icon && icon}</span>
       {label}
     </button>
   );

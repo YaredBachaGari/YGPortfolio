@@ -15,13 +15,13 @@ const Experiance = (props: Props) => {
   const [toggled, setToggled] = useState(false);
   return (
     <div className={styles.experianceContainer}>
-      <h2 className={styles.experianceheader}>EXPERIANCE</h2>
+      <h2 className={styles.experianceheader}>EXPERIENCES</h2>
       <div className={styles.outerInnerExp}>
         <div className={styles.keyexp}>
-          {toggled ? (
+          {!toggled ? (
             <>
-              <CloseBtnCircular
-                className={styles.toggleoff}
+              <PlusCircularBtn
+                className={styles.toggleOn}
                 onClick={() => setToggled(!toggled)}
               />
               <div className={styles.timeline}>
@@ -30,11 +30,10 @@ const Experiance = (props: Props) => {
             </>
           ) : (
             <>
-              <PlusCircularBtn
-                className={styles.toggleOn}
+              <CloseBtnCircular
+                className={styles.toggleoff}
                 onClick={() => setToggled(!toggled)}
               />
-
               <div className={styles.maingroup}>
                 <div className={styles.groupOne}>
                   <Metrix

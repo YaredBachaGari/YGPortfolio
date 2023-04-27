@@ -5,6 +5,7 @@
 .experianceheader {
   color: var(--tertiarycolor);
   font-size: var(--secondaryheaderfont);
+  font-weight: var(--bold);
   padding-bottom: 2rem;
 }
 
