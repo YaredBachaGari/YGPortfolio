@@ -48,9 +48,31 @@ export const ListOfMyExp = [
     city: "Atlanta",
     country: "US",
     kpi: [
-      { id: 1, description: "key point1 " },
-      { id: 2, description: "key point2 " },
-      { id: 3, description: "key point3 " },
+      {
+        id: 1,
+        description:
+          "Collaborated with the development team to create new features that boosted user engagement by 20% and enhanced the overall user experience.",
+      },
+      {
+        id: 2,
+        description:
+          "Conducted A/B experiments using Adobe Analytics with my team to optimize our application.",
+      },
+      {
+        id: 3,
+        description:
+          "Implemented comprehensive unit and integration test suites that resulted in a 30% decrease in production issues and errors.",
+      },
+      {
+        id: 4,
+        description:
+          "Identified, debugged, tested, and resolved various issues within our codebase to improve the overall quality of our application.",
+      },
+      {
+        id: 5,
+        description:
+          "Improved the performance and reliability of our application's codebase by developing React components and refactoring existing code",
+      },
     ],
   },
   {
@@ -61,37 +83,51 @@ export const ListOfMyExp = [
     city: "Washington Dc",
     country: "US",
     kpi: [
-      { id: 1, description: "key point1 " },
-      { id: 2, description: "key point2 " },
-      { id: 3, description: "key point3 " },
+      {
+        id: 1,
+        description:
+          "Contributed to the creation of comprehensive documentation for new features, resulting in a 20% reduction in onboarding time for new team members. ",
+      },
+      {
+        id: 2,
+        description:
+          "Collaborated with senior team members to troubleshoot and resolve production issues, resulting in a 25% reduction in critical system issues and downtime.",
+      },
+      {
+        id: 3,
+        description:
+          "Assisted in the optimization of the codebase by identifying and fixing performance issues resulting in a 15% improvement in application speed.",
+      },
     ],
   },
   {
     id: 4,
     position: "Visiting Researcher",
-    company: "University of Wisconsin-Madison",
+    company: "University of Wisconsin-Madison | University of Calgary",
     duration: { from: "2019", to: "2020" },
-    city: "Madison",
-    country: "US",
+    city: "Madison | Calgary",
+    country: "US | Canada",
     kpi: [
-      { id: 1, description: "key point1 " },
-      { id: 2, description: "key point2 " },
-      { id: 3, description: "key point3 " },
+      {
+        id: 1,
+        description:
+          "Carried out one research project on the Nile water management and published the find on international journal",
+      },
     ],
   },
-  {
-    id: 3,
-    position: "Visting Reseacher",
-    company: "University of Calgary",
-    duration: { from: "2018", to: "2019" },
-    city: "Calgary",
-    country: "Canada",
-    kpi: [
-      { id: 1, description: "key point1 " },
-      { id: 2, description: "key point2 " },
-      { id: 3, description: "key point3 " },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   position: "Visting Reseacher",
+  //   company: "University of Calgary",
+  //   duration: { from: "2018", to: "2019" },
+  //   city: "Calgary",
+  //   country: "Canada",
+  //   kpi: [
+  //     { id: 1, description: "key point1 " },
+  //     { id: 2, description: "key point2 " },
+  //     { id: 3, description: "key point3 " },
+  //   ],
+  // },
   {
     id: 2,
     position: "Lecturer",
@@ -100,22 +136,45 @@ export const ListOfMyExp = [
     city: "Bahir Dar",
     country: "Ethiopia",
     kpi: [
-      { id: 1, description: "key point1 " },
-      { id: 2, description: "key point2 " },
-      { id: 3, description: "key point3 " },
+      {
+        id: 1,
+        description:
+          "Taught courses in hydraulics and water resources system analyses ",
+      },
+      {
+        id: 2,
+        description:
+          "Published two research articles on international journals ",
+      },
+      {
+        id: 3,
+        description:
+          "Supervised and advised undergraduate students in their research projects ",
+      },
     ],
   },
   {
     id: 1,
-    position: "Project Engineer",
+    position: "Office Engineer",
     company: "Amhara Water Works Construction Ent.",
     duration: { from: "2009", to: "2012" },
     city: "Bahir Dar",
     country: "Ethiopia",
     kpi: [
-      { id: 1, description: "key point1 " },
-      { id: 2, description: "key point2 " },
-      { id: 3, description: "key point3 " },
+      {
+        id: 1,
+        description: "Prepared construction action plans for over 20 projects",
+      },
+      {
+        id: 2,
+        description:
+          "Prepared bill of Quantity, takeoff sheet and payment certificates for many projects",
+      },
+      {
+        id: 3,
+        description:
+          "carried out weekly progress evaluation and cost benefit analysis of projects",
+      },
     ],
   },
 ];
@@ -197,26 +256,10 @@ export const AllLinks = {
   phone: "+1 206 641 0154",
 };
 
-// | "nextjs"
-// | "typscript"
-// | "react"
-// | "redux"
-// | "tailwind"
-// | "jest"
-// | "javascript"
-// | "sequelize"
-// | "mysql"
-// | "nodejs"
-// | "expressjs"
-// | "css"
-// | "sqlite"
-// | "postgres"
-// | "aws";
-
 export const Allwebprojects = [
   {
     id: 1,
-    cardImg: "/images/table.jpeg",
+    cardImg: "/images/personalPortfolio.png",
     projectTitle: "My personal portfolio",
     projectdesc:
       "This project is a personal website to show case my skill and present who i am as a developer. This web app is also developed by using the following tech-stacks:",
@@ -243,14 +286,14 @@ export const Allwebprojects = [
       },
     ],
     weblink: "#",
-    githublink: "#",
+    githublink: "https://github.com/YaredBachaGari/YGPortfolio",
   },
   {
     id: 2,
-    cardImg: "/images/table.jpeg",
-    projectTitle: "My personal portfolio",
+    cardImg: "/images/NetflixClone.png",
+    projectTitle: "NetFlix Clone",
     projectdesc:
-      "This project is a personal website to show case my skill and present who i am. developed by using:",
+      "This movie site project is a hobby project that i built to create a memory muscle while i was learning next js, prisma and tailwind css. Its developed by using:",
     techstack: [
       {
         id: 1,
@@ -262,11 +305,11 @@ export const Allwebprojects = [
       },
       {
         id: 3,
-        techname: "css",
+        techname: "prisma",
       },
       {
         id: 4,
-        techname: "javascript",
+        techname: "mongodb",
       },
       {
         id: 5,
@@ -274,107 +317,170 @@ export const Allwebprojects = [
       },
     ],
     weblink: "#",
-    githublink: "#",
+    githublink: "https://github.com/YaredBachaGari/YGnetflixclone2023",
   },
   {
     id: 3,
-    cardImg: "/images/table.jpeg",
-    projectTitle: "My personal portfolio",
+    cardImg: "/images/Instafraud2.png",
+    projectTitle: "InstaFraud",
     projectdesc:
-      "This project is a personal website to show case my skill and present who i am. developed by using:",
+      "This social media app is a simplified version of instagram and twitter features. Was created collaboratively for educational purpose during multiverse bootcamp training. developed by using:",
     techstack: [
       {
         id: 1,
-        techname: "nextjs",
+        techname: "react",
       },
       {
         id: 2,
-        techname: "typscript",
+        techname: "expressjs",
       },
       {
         id: 3,
-        techname: "css",
+        techname: "mysql",
       },
       {
         id: 4,
-        techname: "javascript",
+        techname: "nodejs",
       },
       {
         id: 5,
-        techname: "tailwind",
+        techname: "docker",
       },
     ],
     weblink: "#",
-    githublink: "#",
+    githublink: "https://github.com/InstaFraud/InstaFraud",
   },
   {
     id: 4,
-    cardImg: "/images/CodeKeyBoard.jpeg",
-    projectTitle: "My personal portfolio",
+    cardImg: "/images/multiverseElearning.png",
+    projectTitle: "Multiverse E-learning",
     projectdesc:
-      "This project is a personal website to show case my skill and present who i am. developed by using:",
+      "This educational purpose online learning app has some selected features of udemy, youtube and multiverse's coding room. And developed as a team during Multiverse bootcamp training using:",
     techstack: [
       {
         id: 1,
-        techname: "nextjs",
+        techname: "react",
       },
       {
         id: 2,
-        techname: "typscript",
+        techname: "docker",
       },
       {
         id: 3,
-        techname: "css",
+        techname: "nodejs",
       },
       {
         id: 4,
-        techname: "javascript",
+        techname: "expressjs",
       },
       {
         id: 5,
-        techname: "tailwind",
+        techname: "sqlite",
       },
     ],
     weblink: "#",
-    githublink: "#",
+    githublink:
+      "https://github.com/multiverse-elearning-project/multiverse-elearning-project",
   },
   {
     id: 5,
-    cardImg: "/images/CodeKeyBoard.jpeg",
-    projectTitle: "My personal portfolio",
+    cardImg: "/images/inventoryapp.png",
+    projectTitle: "Inventory Management",
     projectdesc:
-      "This project is a personal website to show case my skill and present who i am. developed by using:",
+      "This inventory management app is created during the course of multiverse bootcamp training in collaboration with other learners. developed by using:",
     techstack: [
       {
         id: 1,
-        techname: "nextjs",
+        techname: "react",
       },
       {
         id: 2,
-        techname: "typscript",
-      },
-      {
-        id: 3,
         techname: "css",
       },
       {
+        id: 3,
+        techname: "nodejs",
+      },
+      {
         id: 4,
-        techname: "javascript",
+        techname: "expressjs",
       },
       {
         id: 5,
-        techname: "tailwind",
+        techname: "sqlite",
       },
     ],
     weblink: "#",
-    githublink: "#",
+    githublink: "https://github.com/inventoryProject0/inventory-app",
   },
   {
     id: 6,
-    cardImg: "/images/CodeKeyBoard.jpeg",
-    projectTitle: "My personal portfolio",
+    cardImg: "/images/pollappcropped.png",
+    projectTitle: "Employees Poll app",
     projectdesc:
-      "This project is a personal website to show case my skill and present who i am as a developer. This web app is also developed by using:",
+      "This poll application is created to fulfill react nano degree program at Udacity. This web app is also developed by using:",
+    techstack: [
+      {
+        id: 1,
+        techname: "react",
+      },
+      {
+        id: 2,
+        techname: "redux",
+      },
+      {
+        id: 3,
+        techname: "css",
+      },
+      {
+        id: 4,
+        techname: "jest",
+      },
+      {
+        id: 5,
+        techname: "typscript",
+      },
+    ],
+    weblink: "#",
+    githublink: "https://github.com/YaredBachaGari/employee-poll",
+  },
+  {
+    id: 4,
+    cardImg: "/images/airbnbclone.png",
+    projectTitle: "AirBnb clone",
+    projectdesc:
+      "This app helps recruiters to get a full statistical picture of developers based on their info on GitHub, Linkedin and twitter. Developed as part Multiverse bootcamp hackthon using:",
+    techstack: [
+      {
+        id: 1,
+        techname: "react",
+      },
+      {
+        id: 2,
+        techname: "typscript",
+      },
+      {
+        id: 3,
+        techname: "nextjs",
+      },
+      {
+        id: 4,
+        techname: "prisma",
+      },
+      {
+        id: 5,
+        techname: "mongodb",
+      },
+    ],
+    weblink: "#",
+    githublink: "https://github.com/YaredBachaGari/airbnb-clone-yg",
+  },
+  {
+    id: 4,
+    cardImg: "/images/devstat .png",
+    projectTitle: "Developers Stat",
+    projectdesc:
+      "This app helps recruiters to get a full statistical picture of developers based on their info on GitHub, Linkedin and twitter. Developed as part Multiverse bootcamp hackthon using:",
     techstack: [
       {
         id: 1,
@@ -398,7 +504,38 @@ export const Allwebprojects = [
       },
     ],
     weblink: "#",
-    githublink: "#",
+    githublink: "https://github.com/YaredBachaGari/Developer-stat-app",
+  },
+  {
+    id: 4,
+    cardImg: "/images/DeathNoteBook.jpeg",
+    projectTitle: "Lights NoteBook",
+    projectdesc:
+      "This is a backend application developed collaboratively during Multiverse apprenticeship program for creating, updating, reading and deleting death incidents.",
+    techstack: [
+      {
+        id: 1,
+        techname: "nodejs",
+      },
+      {
+        id: 2,
+        techname: "expressjs",
+      },
+      {
+        id: 3,
+        techname: "mysql",
+      },
+      {
+        id: 4,
+        techname: "javascript",
+      },
+      {
+        id: 5,
+        techname: "sequelize",
+      },
+    ],
+    weblink: "#",
+    githublink: "https://github.com/death-notebook/lights-notebook",
   },
 ];
 
@@ -565,7 +702,7 @@ export const mySkillSet = [
   },
 ];
 
-export const softSkillSet =[
+export const softSkillSet = [
   {
     id: 1,
     type: "softskill",
@@ -608,4 +745,4 @@ export const softSkillSet =[
     skillname: "Teaching",
     proficiencyPerc: "ninetyfive",
   },
-]
+];

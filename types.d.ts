@@ -28,5 +28,8 @@ type techname = {
     | "prob"
     | "grow"
     | "rese"
-    | "teac";
+    | "teac"
+    | "sql"
+    | "mongodb"
+    | "prisma";
 }[];

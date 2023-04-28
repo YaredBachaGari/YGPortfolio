@@ -59,12 +59,7 @@ const SkillPage = (props: Props) => {
         <div className={styles.planetcontainer}>
           <div className={styles.firstradial}>
             <div className={styles.proeffiency}></div>
-            <SkillWrapper
-              x={"-4vw"}
-              y={"0%"}
-              title="html"
-              className={styles.iconname}
-            >
+            <SkillWrapper x={"-4vw"} y={"0%"} title="html">
               <HtmlIcon />
               <p className={styles.iconname}>html</p>
             </SkillWrapper>
@@ -80,14 +75,9 @@ const SkillPage = (props: Props) => {
               <Github />
               <p className={styles.iconname}>GitHub</p>
             </SkillWrapper>
-            <SkillWrapper
-              x={"-12vw"}
-              y={"13vh"}
-              title="Javascript"
-              className={styles.iconname}
-            >
+            <SkillWrapper x={"-12vw"} y={"13vh"} title="Javascript">
               <Javascript />
-              <p className={styles.iconname}>Javascript</p>
+              <p className={"styles.iconname"}>Javascript</p>
             </SkillWrapper>
             <SkillWrapper x={"-12vw"} y={"0"} title="React">
               <Reactjs />
