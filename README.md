@@ -1,5 +1,5 @@
 <div align="center">
- ### Hello World 👋 <br/> <img src="https://avatars.githubusercontent.com/u/24825276" width="150" borderRadius="50%" title="@YaredBachaGari">
+ <h1>Hello World 👋</h1> <img src="https://avatars.githubusercontent.com/u/24825276" width="150" borderRadius="50%" title="@YaredBachaGari">
 </div>
 
 Welcome to my personal portfolio site! My name is Yared Gari, and I am a passionate web developer who loves to design and build awesome websites and web applications. I have created this project to walk you through my personal portfolio site, where you can find more information about me, my education, experience, skills, and projects.
