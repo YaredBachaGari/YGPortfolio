@@ -1,74 +1,69 @@
 # Hello
+<p align="left">
+  <img src="https://avatars.githubusercontent.com/u/24825276" width="100" title="@YaredBachaGari">
+<p align="left">
 
-Welcome to my personal portfolio site! My name is [Your Name], and I am a passionate web developer who loves to design and build awesome websites and web applications. I have created this project to walk you through my personal portfolio site, where you can find more information about me, my education, experience, skills, and projects. 
+Welcome to my personal portfolio site! My name is [Your Name], and I am a passionate web developer who loves to design and build awesome websites and web applications. I have created this project to walk you through my personal portfolio site, where you can find more information about me, my education, experience, skills, and projects.
 
-## 💡 Philosophy
-Our experience tells us that skills are universal but oppurtunities are influenced by circumstancial enviorments. Our goal is to connect aspiring learners to the best instructors in their respective fields. Onwards!
+## 💡 Technologies
 
-## Demo 
-<p align="center">
- <img width="1397" alt="Screen Shot 2023-03-03 at 2 38 24 PM" src="https://user-images.githubusercontent.com/94465317/222844595-b7e34480-454d-42cc-9707-2e494a7cefef.png">
-<p align="center">
+To create this portfolio i used
 
-## ⚙️ Installation
-Make sure you have Node.js and npm installed. Install latest version:
+- Nextjs13
+- tailwind css
+- Typescript
+- Framer-Motion
+- Figma
 
-```sh
-Please run: npm i 
-```
-Please run following commands on seperate terminals
+## ⚙️ Installation and Usage
 
-```sh
-To start client: npm run start; 
-```
-
-```sh
-Backend: npm run dev; 
-```
-
-## ⚙ Usage
+Step-1 Make sure you have the latest Node.js installed. To Install latest version go to:
+[nodejs]("https://nodejs.org/en/download")
+Step-2 clone the repository
 
 ```sh
-Please make sure npm packages are installed and runing on  local. Also, run client and backend on seperate terminals. One should run in port 3xxx and 80xx
+ git clone https://github.com/YaredBachaGari/YGPortfolio
 ```
 
+Step-2 install all the neccessery packages.
 
-## 🎯 Features
+```sh
+npm install
+```
 
-**Robust routing
-**Serve static files
-**Great performance
-**Low memory footprint
--API endpoints
--Middleware & Next support
--Rapid server-side programming
--User-Friendly
--Lean
--Connects community of learners
+step-4 Run the server
 
+```sh
+npm run dev
+```
 
+## 🎯 Portfolio Content
 
-## 💡 Philosophy
-Our experience tells us that skills are universal but oppurtunities are influenced by circumstancial enviorments. Our goal is to connect aspiring learners to the best instructors in their respective fields. Onwards!
+** Langing page including about me, Skills, experiance and educations
+** Projects
+** Certifications
+** Contact me
+
+## 💡 Next features
+
+** Creating a backend Api for my blog page where i can share my learning and experiance
+** Powering mysite with ChatGPT. this includes but not limited to chatbot and documentation
 
 
 ## ⚠️ Limitations
-Because of time constraints, we have not completed all modules. However, the first module indicates the direction project will continue by us or any developers who seeks to build on our foundation. 
+
+Because of time constraints, we have not completed all modules. However, the first module indicates the direction project will continue by us or any developers who seeks to build on our foundation.
 
 Additionally, UI can be modified to be more personalized and presentable. Our main focus was on understanding the backend architecture while also reinforcing some cocepts on the front-end.
 
+## ☕ Team Mates
 
+👤 **Yared,Jordan, Getu, Benjamin**
 
-## ☕ Team Mates 
-
-
-👤 **Yared,Jordan, Getu,  Benjamin**
-
-
-@YaredBachaGari,  @JordanPHornback, @getuengda, @bcabr
-
+@YaredBachaGari, @JordanPHornback, @getuengda, @bcabr
 
 ## ‎‍💻 Code Contributors
+
 <p align="left">
   <img src="https://avatars.githubusercontent.com/u/24825276" width="40" title="@YaredBachaGari">
   <img src="https://avatars.githubusercontent.com/u/102699173" width="40" title="@JordanPHornback">
