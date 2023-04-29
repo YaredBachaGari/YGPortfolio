@@ -8,8 +8,15 @@ import {
   PhoneIcon,
 } from "../components/Icons/IconComponents/Icons";
 import Link from "next/link";
-import { AllLinks } from "@/public/Alltext";
+import { AllLinks, metaContent } from "@/public/Alltext";
 import TransitionEffect from "../components/TransitionEffect/TransitionEffect";
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: metaContent.contactme.title || "Contact-me",
+  description: metaContent.contactme.desc || "contact me page",
+};
 
 const contactmePage = () => {
   return (
@@ -23,20 +30,27 @@ const contactmePage = () => {
               <p className={styles.Infotitle}>Contact Info</p>
               <div className={styles.contactlinks}>
                 <p className={styles.Info}>
-                  <EmailIcon />
-                  <Link href={AllLinks.email1}>Email</Link>
+                  <Link href={`mailto:${AllLinks.email1}`} target="_blank">
+                    <EmailIcon /> <br />
+                    Email
+                  </Link>
                 </p>
                 <p className={styles.Info}>
                   <PhoneIcon />
                   <Link href={`tel:${AllLinks.phone}`}>Phone</Link>
                 </p>
                 <p className={styles.Info}>
-                  <LinkedinIcon />
-                  <Link href={AllLinks.Linkedin}>Linkedin</Link>
+                  <Link href={AllLinks.Linkedin} target="_blank">
+                    <LinkedinIcon /> <br />
+                    Linkedin
+                  </Link>
                 </p>
                 <p className={styles.Info}>
-                  <Github />
-                  <Link href={AllLinks.github}>Github</Link>
+                  <Link href={AllLinks.github} target="_blank">
+                    <Github />
+                    <br />
+                    Github
+                  </Link>
                 </p>
               </div>
             </div>

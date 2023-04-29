@@ -31,5 +31,7 @@ type techname = {
     | "teac"
     | "sql"
     | "mongodb"
-    | "prisma";
+    | "prisma"
+    | "figma"
+    |"chartjs"
 }[];

@@ -115,3 +115,10 @@
 .play-pause {
   color: black;
 }
+
+@media screen and (max-width:600px){
+
+  .slides {
+    height: auto;
+  }
+}

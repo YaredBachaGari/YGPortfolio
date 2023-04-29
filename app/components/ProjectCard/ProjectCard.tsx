@@ -44,7 +44,7 @@ const ProjectCard = ({ carddetail }: Props) => {
     };
   }, []);
   return (
-    <li className={styles.cardContainer}>
+    <motion.li className={styles.cardContainer} whileHover={{scale:1.05}}>
       <Image
         src={cardImg}
         alt="tech Icon"
@@ -57,7 +57,10 @@ const ProjectCard = ({ carddetail }: Props) => {
         <p className={styles.projectdesc}>{projectdesc}</p>
         <div className={styles.teckstacks}>
           {techstack?.map((tech) => (
-            <span key={tech.id}>{LookUp[`${tech.techname}`]}</span>
+            <div key={tech.id} className={styles.iconcontainer}>
+              <span>{LookUp[`${tech.techname}`]}</span>
+              <span className={styles.icontitle} >{tech.techname}</span>
+            </div>
           ))}
         </div>
       </div>
@@ -90,7 +93,7 @@ const ProjectCard = ({ carddetail }: Props) => {
           priority
         />
       </div>
-    </li>
+    </motion.li>
   );
 };
 

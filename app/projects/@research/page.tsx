@@ -3,7 +3,13 @@ import AnimatedHeader from "@/app/components/AnimatedHeader/AnimatedHeader";
 import { Research } from "@/app/components/Icons/IconComponents/Icons";
 import styles from "./research.module.css";
 import ResearchCard from "@/app/components/ResearchCard/ResearchCard";
-import { ResearchProjects } from "@/public/Alltext";
+import { ResearchProjects, metaContent } from "@/public/Alltext";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: metaContent.projects.title || "projects",
+  description: metaContent.projects.desc || "projects page",
+};
 
 type Props = {};
 

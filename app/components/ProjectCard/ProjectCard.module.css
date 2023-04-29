@@ -5,6 +5,9 @@
   margin: 1rem 0;
   list-style: none;
 }
+.cardContainer:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
 .projecttitle {
   font-weight: var(--medium);
   letter-spacing: 0.1rem;
@@ -56,7 +59,24 @@
 .innerbtn:hover .smallweb path{
     fill:var(--purewhite)
 }
-
+.iconcontainer{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.icontitle{
+  position: absolute;
+  top: 2.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  text-transform: capitalize;
+  color: var(--tertiarycolor);
+}
+.iconcontainer:hover .icontitle{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
 @media screen and (max-width:420px) {
   .cardContainer{
     width: 370px;

@@ -85,6 +85,13 @@
 .social a:hover {
   color: var(--tertiarycolor);
 }
+.linkcontent{
+  display: flex;
+  align-items: flex-end;
+}
+.iconcomponent{
+  margin-right: 1rem;
+}
 
 @media screen and (max-width:750px) {
   .content{

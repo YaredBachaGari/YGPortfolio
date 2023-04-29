@@ -37,53 +37,72 @@ const Footer = () => {
               <p className={styles.contactme}>CONTACT</p>
               <ul className={styles.contactmeleft}>
                 <li className={styles.infocontainer}>
-                  <EmailIcon className={styles.iconcomponent} />
                   <motion.span
                     className={styles.iconText}
                     whileHover={{ scale: 1.1 }}
                   >
                     <Link href={`mailto:${AllLinks.email1}`} target="_blank">
-                      {AllLinks.email1}
+                      <span className={styles.linkcontent}>
+                        <EmailIcon className={styles.iconcomponent} />
+                        <span>{AllLinks.email1}</span>
+                      </span>
                     </Link>
                   </motion.span>
                 </li>
                 <li className={styles.infocontainer}>
-                  <PhoneIcon className={styles.iconcomponent} />
                   <motion.span
                     className={styles.iconText}
                     whileHover={{ scale: 1.1 }}
                   >
-                    {AllLinks.phone}
+                    <Link href={`tel:${AllLinks.phone}`} target="_blank">
+                      <span className={styles.linkcontent}>
+                        <PhoneIcon className={styles.iconcomponent} />
+                        <span> {AllLinks.phone}</span>
+                      </span>
+                    </Link>
                   </motion.span>
                 </li>
                 <li className={styles.infocontainer}>
-                  <LocationIcon className={styles.iconcomponent} />
                   <motion.span
                     className={styles.iconText}
                     whileHover={{ scale: 1.1 }}
                   >
-                    {AllLinks.location}
+                    <Link
+                      href={
+                        "https://www.google.com/maps/place/Seattle,+WA/@47.6130284,-122.3420645,11z/data=!3m1!4b1!4m6!3m5!1s0x5490102c93e83355:0x102565466944d59a!8m2!3d47.6062095!4d-122.3320708!16zL20vMGQ5anI"
+                      }
+                      target="_blank"
+                    >
+                      <span className={styles.linkcontent}>
+                        <LocationIcon className={styles.iconcomponent} />
+                        <span> {AllLinks.location}</span>
+                      </span>
+                    </Link>
                   </motion.span>
                 </li>
                 <li className={styles.infocontainer}>
-                  <LinkedinIcon className={styles.iconcomponent} />
                   <motion.span
                     className={styles.iconText}
                     whileHover={{ scale: 1.1 }}
                   >
                     <Link href={AllLinks.Linkedin} target="_blank">
-                      Linkedin
+                      <span className={styles.linkcontent}>
+                        <LinkedinIcon className={styles.iconcomponent} />
+                        <span>Linkedin</span>
+                      </span>
                     </Link>
                   </motion.span>
                 </li>
                 <li className={styles.infocontainer}>
-                  <Github className={styles.iconcomponent} />
                   <motion.span
                     className={styles.iconText}
                     whileHover={{ scale: 1.1 }}
                   >
                     <Link href={AllLinks.github} target="_blank">
-                      GitHub
+                      <span className={styles.linkcontent}>
+                        <Github className={styles.iconcomponent} />
+                        <span>GitHub</span>
+                      </span>
                     </Link>
                   </motion.span>
                 </li>
@@ -94,35 +113,41 @@ const Footer = () => {
               <p className={styles.contactme}>SOCIAL MEDIA</p>
               <ul className={styles.contactmeright}>
                 <li className={styles.infocontainer}>
-                  <TwitterIcon />
                   <motion.span
                     className={styles.iconText}
                     whileHover={{ scale: 1.1 }}
                   >
                     <Link href={AllLinks.twitter} target="_blank">
-                      Twitter
+                      <span className={styles.linkcontent}>
+                        <TwitterIcon className={styles.iconcomponent} />
+                        <span>Twitter</span>
+                      </span>
                     </Link>
                   </motion.span>
                 </li>
                 <li className={styles.infocontainer}>
-                  <InstagramIcon />
                   <motion.span
                     className={styles.iconText}
                     whileHover={{ scale: 1.1 }}
                   >
                     <Link href={AllLinks.instagram} target="_blank">
-                      Instagram
+                      <span className={styles.linkcontent}>
+                        <InstagramIcon className={styles.iconcomponent} />
+                        <span>Instagram</span>
+                      </span>
                     </Link>
                   </motion.span>
                 </li>
                 <li className={styles.infocontainer}>
-                  <FacebookIcon />
                   <motion.span
                     className={styles.iconText}
                     whileHover={{ scale: 1.1 }}
                   >
                     <Link href={AllLinks.facebook} target="_blank">
-                      Facebook
+                      <span className={styles.linkcontent}>
+                        <FacebookIcon className={styles.iconcomponent} />
+                        <span>Facebook</span>
+                      </span>
                     </Link>
                   </motion.span>
                 </li>

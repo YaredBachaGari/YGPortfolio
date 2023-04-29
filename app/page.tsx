@@ -1,7 +1,6 @@
 import { metaContent } from "../public/Alltext";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
-const inter = Inter({ subsets: ["latin"] });
 import Button from "./components/Button/Button";
 import styles from "./landing.module.css";
 import Image from "next/image";
@@ -10,7 +9,6 @@ import banner from "../public/images/macDesktop.jpeg"
 import {
   WifiIcon,
   ComputerIcon,
-  SkillSpinner,
 } from "./components/Icons/IconComponents/Icons";
 import { heroContent } from "../public/Alltext";
 import AnimatedHeader from "./components/AnimatedHeader/AnimatedHeader";

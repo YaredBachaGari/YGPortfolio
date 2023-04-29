@@ -1,8 +1,10 @@
+"use client";
 import React from "react";
 import styles from "./ResearchCard.module.css";
 import Image from "next/image";
 import tables from "../../../public/images/table.jpeg";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 type Props = {
   project: {
@@ -23,7 +25,10 @@ const ResearchCard = ({ project }: Props) => {
   const imgur = coverimg ? coverimg : tables;
   if (id % 2 === 0) {
     return (
-      <div className={styles.innerContainerodd}>
+      <motion.div
+        className={styles.innerContainerodd}
+        whileHover={{ scale: 1.05 }}
+      >
         <div className={styles.rightdivodd}>
           <Image
             src={imgur}
@@ -48,11 +53,11 @@ const ResearchCard = ({ project }: Props) => {
             </Link>
           )}
         </div>
-      </div>
+      </motion.div>
     );
   }
   return (
-    <div className={styles.innerContainer}>
+    <motion.div className={styles.innerContainer} whileHover={{ scale: 1.05 }}>
       <div className={`${styles.leftdiv} ${styles.commontext}`}>
         <p className={styles.papertitle}> {title}</p>
         <p className={styles.Authors}>{Authors}</p>
@@ -71,7 +76,7 @@ const ResearchCard = ({ project }: Props) => {
           priority
         />
       </div>
-    </div>
+    </motion.div>
   );
 };
 

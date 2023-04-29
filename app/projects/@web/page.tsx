@@ -3,7 +3,13 @@ import AnimatedHeader from "@/app/components/AnimatedHeader/AnimatedHeader";
 import { WebIcon } from "@/app/components/Icons/IconComponents/Icons";
 import styles from "./project.module.css";
 import ProjectCard from "@/app/components/ProjectCard/ProjectCard";
-import { Allwebprojects } from "@/public/Alltext";
+import { Allwebprojects, metaContent } from "@/public/Alltext";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: metaContent.projects.title || "projects",
+  description: metaContent.projects.desc || "projects page",
+};
 
 type Props = {};
 

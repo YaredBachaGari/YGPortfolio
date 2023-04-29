@@ -18,19 +18,15 @@ export const metaContent = {
   },
   projects: {
     title: "Projects",
-    desc: "Thispage Highlights that projects that yared gari has taken part and  contributed on as part of hi learning new technologies or job",
+    desc: "Thispage Highlights that projects that yared gari has taken part and  contributed on as part of his learning or on the job. These projects include web development, researches and data analytics",
   },
-  researches: {
-    title: "Researches",
-    desc: "This page presents acedamic research papers that yared gari has published on international journals or presented for a wider scientific community",
+  certificates: {
+    title: "Certificates",
+    desc: "This page presents certificates, achievements or awards that yared gari has obtained.",
   },
   contactme: {
     title: "Contact me",
     desc: "On this page any one can contact yared gari using one of the options indacted on this page.",
-  },
-  cerrtfication: {
-    title: "Certificates",
-    desc: "This page show cases yared gari's learning achievements  and certifications and awards",
   },
 };
 
@@ -253,7 +249,7 @@ export const AllLinks = {
   email1: "yaredbacha@gmail.com",
   email2: "yaredbacha45@gmail.com",
   location: "Seattle, WA",
-  phone: "+1 206 641 0154",
+  phone: "206-641-0154",
 };
 
 export const Allwebprojects = [
@@ -262,7 +258,7 @@ export const Allwebprojects = [
     cardImg: "/images/personalPortfolio.png",
     projectTitle: "My personal portfolio",
     projectdesc:
-      "This project is a personal website to show case my skill and present who i am as a developer. This web app is also developed by using the following tech-stacks:",
+      "This project is a personal website to show case my skills and present who i am as a developer. This web app is also developed by using the following tech-stacks:",
     techstack: [
       {
         id: 1,
@@ -274,7 +270,7 @@ export const Allwebprojects = [
       },
       {
         id: 3,
-        techname: "css",
+        techname: "figma",
       },
       {
         id: 4,
@@ -293,7 +289,7 @@ export const Allwebprojects = [
     cardImg: "/images/NetflixClone.png",
     projectTitle: "NetFlix Clone",
     projectdesc:
-      "This movie site project is a hobby project that i built to create a memory muscle while i was learning next js, prisma and tailwind css. Its developed by using:",
+      "This movie site is a hobby project that i built it to strengthen my memory while i was learning new features of next js13, prisma and tailwind css. It was developed by using:",
     techstack: [
       {
         id: 1,
@@ -324,7 +320,7 @@ export const Allwebprojects = [
     cardImg: "/images/Instafraud2.png",
     projectTitle: "InstaFraud",
     projectdesc:
-      "This social media app is a simplified version of instagram and twitter features. Was created collaboratively for educational purpose during multiverse bootcamp training. developed by using:",
+      "This social networking  app is a simplified version of the functionalities on Instagram and Twitter. Created for educational purpose during multiverse apparenticeship program using:",
     techstack: [
       {
         id: 1,
@@ -352,10 +348,72 @@ export const Allwebprojects = [
   },
   {
     id: 4,
+    cardImg: "/images/pollappcropped.png",
+    projectTitle: "Employees Poll app",
+    projectdesc:
+      "This employee polling application was developed to fulfill the requirements of the React Nano degree program at Udacity. The web app was also built using:",
+    techstack: [
+      {
+        id: 1,
+        techname: "react",
+      },
+      {
+        id: 2,
+        techname: "redux",
+      },
+      {
+        id: 3,
+        techname: "css",
+      },
+      {
+        id: 4,
+        techname: "jest",
+      },
+      {
+        id: 5,
+        techname: "typscript",
+      },
+    ],
+    weblink: "#",
+    githublink: "https://github.com/YaredBachaGari/employee-poll",
+  },
+  {
+    id: 5,
+    cardImg: "/images/airbnbclone.png",
+    projectTitle: "AirBnb clone",
+    projectdesc:
+      "This rent place booking app which includes most of the features found on Airbnb was developed While learning Prisma and MongoDB. It was built using:",
+    techstack: [
+      {
+        id: 1,
+        techname: "react",
+      },
+      {
+        id: 2,
+        techname: "typscript",
+      },
+      {
+        id: 3,
+        techname: "nextjs",
+      },
+      {
+        id: 4,
+        techname: "prisma",
+      },
+      {
+        id: 5,
+        techname: "mongodb",
+      },
+    ],
+    weblink: "#",
+    githublink: "https://github.com/YaredBachaGari/airbnb-clone-yg",
+  },
+  {
+    id: 6,
     cardImg: "/images/multiverseElearning.png",
     projectTitle: "Multiverse E-learning",
     projectdesc:
-      "This educational purpose online learning app has some selected features of udemy, youtube and multiverse's coding room. And developed as a team during Multiverse bootcamp training using:",
+      "This online learning app was developed for educational purposes during the Multiverse apprenticeship program. It includes certain features from YouTube and Multiverse's coding room.",
     techstack: [
       {
         id: 1,
@@ -383,11 +441,11 @@ export const Allwebprojects = [
       "https://github.com/multiverse-elearning-project/multiverse-elearning-project",
   },
   {
-    id: 5,
+    id: 7,
     cardImg: "/images/inventoryapp.png",
     projectTitle: "Inventory Management",
     projectdesc:
-      "This inventory management app is created during the course of multiverse bootcamp training in collaboration with other learners. developed by using:",
+      "This inventory management app was created during the Multiverse apprenticeship program in collaboration with other learners. It was developed using:",
     techstack: [
       {
         id: 1,
@@ -413,82 +471,21 @@ export const Allwebprojects = [
     weblink: "#",
     githublink: "https://github.com/inventoryProject0/inventory-app",
   },
+
   {
-    id: 6,
-    cardImg: "/images/pollappcropped.png",
-    projectTitle: "Employees Poll app",
-    projectdesc:
-      "This poll application is created to fulfill react nano degree program at Udacity. This web app is also developed by using:",
-    techstack: [
-      {
-        id: 1,
-        techname: "react",
-      },
-      {
-        id: 2,
-        techname: "redux",
-      },
-      {
-        id: 3,
-        techname: "css",
-      },
-      {
-        id: 4,
-        techname: "jest",
-      },
-      {
-        id: 5,
-        techname: "typscript",
-      },
-    ],
-    weblink: "#",
-    githublink: "https://github.com/YaredBachaGari/employee-poll",
-  },
-  {
-    id: 4,
-    cardImg: "/images/airbnbclone.png",
-    projectTitle: "AirBnb clone",
-    projectdesc:
-      "This app helps recruiters to get a full statistical picture of developers based on their info on GitHub, Linkedin and twitter. Developed as part Multiverse bootcamp hackthon using:",
-    techstack: [
-      {
-        id: 1,
-        techname: "react",
-      },
-      {
-        id: 2,
-        techname: "typscript",
-      },
-      {
-        id: 3,
-        techname: "nextjs",
-      },
-      {
-        id: 4,
-        techname: "prisma",
-      },
-      {
-        id: 5,
-        techname: "mongodb",
-      },
-    ],
-    weblink: "#",
-    githublink: "https://github.com/YaredBachaGari/airbnb-clone-yg",
-  },
-  {
-    id: 4,
+    id: 8,
     cardImg: "/images/devstat .png",
     projectTitle: "Developers Stat",
     projectdesc:
-      "This app helps recruiters to get a full statistical picture of developers based on their info on GitHub, Linkedin and twitter. Developed as part Multiverse bootcamp hackthon using:",
+      "This app provides recruiters insights on developers based on their info on GitHub, Linkedin and twitter. Developed as part of Multiverse bootcamp hackthon using:",
     techstack: [
       {
         id: 1,
-        techname: "nextjs",
+        techname: "react",
       },
       {
         id: 2,
-        techname: "typscript",
+        techname: "chartjs",
       },
       {
         id: 3,
@@ -496,22 +493,22 @@ export const Allwebprojects = [
       },
       {
         id: 4,
-        techname: "javascript",
+        techname: "expressjs",
       },
       {
         id: 5,
-        techname: "tailwind",
+        techname: "sequelize",
       },
     ],
     weblink: "#",
     githublink: "https://github.com/YaredBachaGari/Developer-stat-app",
   },
   {
-    id: 4,
+    id: 9,
     cardImg: "/images/DeathNoteBook.jpeg",
     projectTitle: "Lights NoteBook",
     projectdesc:
-      "This is a backend application developed collaboratively during Multiverse apprenticeship program for creating, updating, reading and deleting death incidents.",
+      "This backend app was designed for creating, updating, reading, and deleting records of death incidents. Developed during the Multiverse apprenticeship program using:",
     techstack: [
       {
         id: 1,
@@ -632,69 +629,76 @@ export const mySkillSet = [
   },
   {
     id: 10,
+    type: "frontend",
+    icon: "figma",
+    skillname: "figma",
+    proficiencyPerc: "ninety",
+  },
+  {
+    id: 11,
     type: "backend",
     icon: "nodejs",
     skillname: "nodejs",
     proficiencyPerc: "ninety",
   },
   {
-    id: 11,
+    id: 12,
     type: "backend",
     icon: "expressjs",
     skillname: "expressjs",
     proficiencyPerc: "ninety",
   },
   {
-    id: 12,
+    id: 13,
     type: "backend",
     icon: "sequelize",
     skillname: "sequelize",
     proficiencyPerc: "ninety",
   },
   {
-    id: 13,
+    id: 14,
     type: "backend",
     icon: "sql",
     skillname: "sql",
     proficiencyPerc: "ninety",
   },
   {
-    id: 14,
+    id: 15,
     type: "backend",
     icon: "sqlite",
     skillname: "sqlite",
     proficiencyPerc: "ninetyfive",
   },
   {
-    id: 15,
+    id: 16,
     type: "backend",
     icon: "mysql",
     skillname: "mysql",
     proficiencyPerc: "ninetyfive",
   },
   {
-    id: 16,
+    id: 17,
     type: "backend",
     icon: "postgres",
     skillname: "postgres",
     proficiencyPerc: "ninety",
   },
   {
-    id: 17,
+    id: 18,
     type: "backend",
     icon: "docker",
     skillname: "docker",
     proficiencyPerc: "ninety",
   },
   {
-    id: 18,
+    id: 19,
     type: "backend",
     icon: "aws",
     skillname: "aws",
     proficiencyPerc: "eightyfive",
   },
   {
-    id: 19,
+    id: 20,
     type: "backend",
     icon: "azure",
     skillname: "azure",
