@@ -61,4 +61,4 @@ http://www.yaredgari.com
 
 ## Demo
 
-<img src="/images/personalPortfolio.png" width="100%" borderRadius="50%" title="@YaredBachaGari">
+<img src="[/images/personalPortfolio.png](https://github.com/YaredBachaGari/YGPortfolio/blob/main/public/images/personalPortfolio.png)" width="100%" borderRadius="50%" title="@YaredBachaGari">
