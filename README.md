@@ -61,4 +61,4 @@ http://www.yaredgari.com
 
 ## Demo
 
-<img src="https://avatars.githubusercontent.com/u/24825276" width="100%" borderRadius="50%" title="@YaredBachaGari">
+<img src="/myportfolio/public/images/personalPortfolio.png" width="100%" borderRadius="50%" title="@YaredBachaGari">
