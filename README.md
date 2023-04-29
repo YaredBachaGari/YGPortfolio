@@ -61,4 +61,4 @@ http://www.yaredgari.com
 
 ## Demo
 
-<img src="/myportfolio/public/images/personalPortfolio.png" width="100%" borderRadius="50%" title="@YaredBachaGari">
+<img src="/images/personalPortfolio.png" width="100%" borderRadius="50%" title="@YaredBachaGari">
