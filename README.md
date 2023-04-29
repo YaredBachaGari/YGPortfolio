@@ -1,5 +1,5 @@
 <div align="center">
- <h1>Hello World 👋</h1> <img src="https://images.unsplash.com/photo-1494173853739-c21f58b16055?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60" width="1500" title="web development">
+ <h1>Hello World 👋</h1> <img src="https://images.unsplash.com/photo-1487338875411-8880f74114a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" width="150" title="web development">
 </div>
 
 Welcome to my personal portfolio site! My name is Yared Gari, and I am a passionate web developer who loves to design and build awesome websites and web applications. I have created this project to walk you through my personal portfolio site, where you can find more information about me, my education, experience, skills, and projects.
