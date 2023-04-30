@@ -79,4 +79,16 @@
     margin: 6rem 0px 4rem 0px;
     padding: 1rem;
   }
+  .toggleOn {
+    margin: 2rem 1rem 0 2rem;
+  }
+  .toggleoff {
+    margin: 2rem 1rem 0 2rem;
+  }
+  .timeline{
+    padding: 3rem 1rem 4rem 2rem;
+}
+.experianceheader{
+  text-align: center;
+}
 }

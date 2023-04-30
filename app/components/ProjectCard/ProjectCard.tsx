@@ -27,24 +27,29 @@ const ProjectCard = ({ carddetail }: Props) => {
   const LookUp = Helper();
 
   const [screenSize, setScreenSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: typeof window !== "undefined" ? window.innerWidth : 1500,
   });
+
   useEffect(() => {
     const handleResize = () => {
-      setScreenSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
+      if (typeof window !== "undefined") {
+        setScreenSize({
+          width: window.innerWidth,
+        });
+      }
     };
-    window.addEventListener("resize", handleResize);
+    if (typeof window !== "undefined") {
+      window.addEventListener("resize", handleResize);
+    }
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      if (typeof window !== "undefined") {
+        window.removeEventListener("resize", handleResize);
+      }
     };
   }, []);
   return (
-    <motion.li className={styles.cardContainer} whileHover={{scale:1.05}}>
+    <motion.li className={styles.cardContainer} whileHover={{ scale: 1.05 }}>
       <Image
         src={cardImg}
         alt="tech Icon"
@@ -59,7 +64,7 @@ const ProjectCard = ({ carddetail }: Props) => {
           {techstack?.map((tech) => (
             <div key={tech.id} className={styles.iconcontainer}>
               <span>{LookUp[`${tech.techname}`]}</span>
-              <span className={styles.icontitle} >{tech.techname}</span>
+              <span className={styles.icontitle}>{tech.techname}</span>
             </div>
           ))}
         </div>

@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import styles from "./ExpTimeLine.module.css";
 import SingleExperiance from "../SingleExperiance/SingleExperiance";
 import { ListOfMyExp } from "../../../public/Alltext";
-import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
+import { motion, useScroll, useTransform, MotionValue, useViewportScroll } from "framer-motion";
 
 type Props = {};
 

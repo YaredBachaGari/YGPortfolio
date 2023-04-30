@@ -120,7 +120,7 @@
 .changetolistview {
   display: block;
 }
-.nomapview{
+.nomapview {
   display: none !important;
 }
 @media screen and (max-width: 1200px) {
@@ -132,31 +132,38 @@
     width: 90%;
   }
 
-  .modechanger{
+  .modechanger {
     display: none;
   }
 }
-@media screen and (max-width:940px){
-  .hardskills{
+@media screen and (max-width: 940px) {
+  .hardskills {
     display: flex;
     flex-direction: column;
   }
-  .disablelistview{
+  .disablelistview {
     width: 100%;
   }
-  .softkills{
+  .softkills {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  
 }
-@media screen and (max-width:625px){
-.icon{
-  display: none;
+@media screen and (max-width: 625px) {
+  .icon {
+    display: none;
+  }
+  .iconnamespace {
+    padding-left: 0;
+  }
+  .skillsHeader {
+    text-align: center;
+  }
 }
-.iconnamespace{
-  padding-left: 0;
-}
-  
+
+@media screen and (max-width: 580px) {
+  .skillsHeader {
+    text-align: center;
+  }
 }

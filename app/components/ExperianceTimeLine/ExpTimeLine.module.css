@@ -1,26 +1,35 @@
-.ExperianceListContainer{
-    position: relative;
-    display: flex;
-    color: var(--secondarycolor);
+.ExperianceListContainer {
+  position: relative;
+  display: flex;
+  color: var(--secondarycolor);
 }
-.fullListContainer{
-    width: 100%;
-    position: relative;
+.fullListContainer {
+  width: 100%;
+  position: relative;
 }
-.progressbar{
-    position: absolute;
-    top: 0;
-    left: 35px;
-    width: 5px;
-    height: 100%;
-    background-color: var(--secondarycolor);
-    transform-origin: top;
+.progressbar {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  width: 5px;
+  height: 100%;
+  background-color: var(--secondarycolor);
+  transform-origin: top;
 }
-.fulllist{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-left: 4rem;
-    list-style: none;
+.fulllist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 4rem;
+  list-style: none;
+}
+
+@media screen and (max-width: 580px) {
+  .fulllist {
+    margin-left: 2rem;
+  }
+  .progressbar {
+    left: 17px;
+  }
 }

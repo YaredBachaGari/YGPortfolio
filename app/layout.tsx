@@ -7,7 +7,7 @@ import TransitionEffect from "./components/TransitionEffect/TransitionEffect";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  display: 'swap',
 });
 export const metadata: Metadata = {
   title: "Create Next App",

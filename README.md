@@ -21,7 +21,7 @@ To create this portfolio i used
 Step-1 Make sure you have the latest Node.js installed. To Install latest version go to:
 
 ```sh
-[https://nodejs.org/en/download](https://nodejs.org/en/download)
+https://nodejs.org/en/download
 ```
 
 Step-2 clone the repository
@@ -55,6 +55,7 @@ step-5 Open
 ## 💡 Next features
 
 - Creating a backend Api for my blog page where i can share my learnings and experiances
+- projects searching functionality as the number grows
 - Powering this site with ChatGPT. This includes but not limited to chatbot and documentation
 
 ## 🚀 Deployed Site
@@ -66,4 +67,3 @@ http://www.yaredgari.com
 <p align="center">
  <img width="1300" alt="Screen Shot" src="https://github.com/YaredBachaGari/YGPortfolio/blob/main/public/images/personalPortfolio.png">
 <p align="center">
-

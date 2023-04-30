@@ -10,8 +10,14 @@
 }
 .innerCircles2 {
   stroke-width: 5px;
-  
 }
 .innerCircles3 {
   stroke-width: 1px;
+}
+@media screen and (max-width: 580px) {
+  .spinnerCont {
+    position: absolute;
+    left: 0;
+    rotate: -180deg;
+  }
 }

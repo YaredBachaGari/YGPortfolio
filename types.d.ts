@@ -1,4 +1,11 @@
 type navbar = { id: number; text: string }[];
+type fromdata = {
+  firstname: string;
+  lastname: string;
+  email: string;
+  phone: string | number;
+  message: string;
+};
 type techname = {
   id: number;
   techname:
@@ -33,5 +40,5 @@ type techname = {
     | "mongodb"
     | "prisma"
     | "figma"
-    |"chartjs"
+    | "chartjs";
 }[];

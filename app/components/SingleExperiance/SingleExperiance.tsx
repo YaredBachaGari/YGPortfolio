@@ -19,11 +19,12 @@ type Props = {
       description: string;
     }[];
   };
+  ref: React.RefObject<HTMLLIElement >;
 };
 
-const SingleExperiance = ({ detail }: Props) => {
+const SingleExperiance = ({ detail, ref }: Props) => {
   const { position, company, duration, city, country, kpi } = detail;
-  const ref = useRef(null);
+  // const ref = useRef(null);
 
   return (
     <motion.li className={styles.singleexp} ref={ref}>

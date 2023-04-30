@@ -16,15 +16,16 @@ type Props = {
     level: string;
     field: string;
   };
+  ref: React.RefObject<HTMLLIElement >;
 };
 
-const SingleEducation = ({ details }: Props) => {
-  const ref = useRef(null);
+const SingleEducation = ({ details, ref }: Props) => {
+  // const ref = useRef(null);
   const { id, period, institution, city, country, level, field } = details;
   const isUniversity =
     level === "Bachelor" || level === "Master" ? true : false;
   return (
-    <li className={styles.singleEducation}>
+    <li className={styles.singleEducation} ref={ref}>
       <ScrollSpin
         referance={ref}
         class1={styles.class1}

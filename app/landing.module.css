@@ -90,33 +90,33 @@
   .banner {
     align-self: flex-start;
   }
-  .herocontainer{
+  .herocontainer {
     position: relative;
   }
-  .headContainer{
+  .headContainer {
     position: absolute;
     top: -400px;
     left: 40%;
   }
-  .herodesc{
+  .herodesc {
     text-align: center;
   }
-  .herobtns{
+  .herobtns {
     justify-content: center;
   }
 }
-.landingcover{
+.landingcover {
   display: none;
 }
 
 @media screen and (max-width: 650px) {
-  .banner{
+  .banner {
     position: relative;
     align-self: center;
     width: 100%;
     margin-bottom: 10rem;
   }
-  .headContainer{
+  .headContainer {
     position: relative;
     top: 0;
     left: 0;
@@ -126,12 +126,13 @@
     position: relative;
     width: 150px;
     height: 100%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     left: 50%;
+    top: 3px;
     transform: scaleX(1.2) translateX(-50%) translateY(40%);
     z-index: 10;
   }
-  .landingcover{
+  .landingcover {
     display: block;
     position: absolute;
     top: 0;
@@ -142,17 +143,17 @@
 }
 
 @media screen and (max-width: 580px) {
-.herobtns{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* margin-bottom: 2rem; */
-}
-.herobtns .btn{
-margin-bottom: 2rem;
-}
-.landing-container{
-  padding: 0rem 0 4rem 0;
-}
+  .herobtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 2rem; */
+  }
+  .herobtns .btn {
+    margin-bottom: 2rem;
+  }
+  .landing-container {
+    padding: 0rem 0 4rem 0;
+  }
 }

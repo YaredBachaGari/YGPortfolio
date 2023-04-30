@@ -63,7 +63,7 @@ export default function HomePage() {
             priority
             className={styles.myphoto}
           />
-          <Image src={banner} alt="banner" width={500} height={500} className={styles.landingcover}/>
+          <Image src={banner} alt="banner" width={500} height={500} className={styles.landingcover} priority/>
         </div>
       </main>
       <section>

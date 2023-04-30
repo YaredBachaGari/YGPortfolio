@@ -24,3 +24,12 @@
   background-color: var(--primarycolor);
   transform-origin: top;
 }
+@media screen and (max-width:580px){
+  .fulllist{
+      margin-left: 2rem;
+  }
+  .progressbar{
+      left: 17px;
+  }
+
+}

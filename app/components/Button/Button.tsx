@@ -11,6 +11,8 @@ type Props = {
   direct?: React.ReactNode;
   to?: string;
   download?: boolean;
+  btntype?: "button" | "submit" | "reset";
+  handleClick?: () => void;
 };
 
 const Button = ({
@@ -22,6 +24,8 @@ const Button = ({
   direct,
   to,
   download,
+  btntype,
+  handleClick,
 }: Props) => {
   if (type === "link") {
     return (
@@ -53,7 +57,8 @@ const Button = ({
   }
   return (
     <button
-      type="submit"
+      type={btntype || "button"}
+      onClick={handleClick}
       className={`${className} ${
         variant === "primary" ? styles.variantOne : styles.variantTwo
       }`}

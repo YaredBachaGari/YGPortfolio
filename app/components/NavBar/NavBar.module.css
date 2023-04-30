@@ -23,12 +23,15 @@
   font-weight: var(--medium);
   align-self: center;
 }
-
+.logo {
+  color: #ec5940;
+  font-size: var(--logoheading);
+  font-weight: var(--normalmedium);
+}
 .logo a {
   text-decoration: inherit;
   color: #ec5940;
   font-size: var(--logoheading);
-
   font-weight: var(--normalmedium);
 }
 

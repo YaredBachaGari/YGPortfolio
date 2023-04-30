@@ -68,4 +68,17 @@
     margin: 4rem 0%;
     padding: 1rem;
   }
+  .educationheader{
+    text-align: center;
+  }
+  .toggleOn {
+    margin: 2rem 1rem 0 2rem;
+  }
+  .toggleoff {
+    margin: 2rem 1rem 0 2rem;
+  }
+  .timeline{
+    padding: 3rem 2rem 4rem 2rem;
+  }
 }
+
