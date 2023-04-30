@@ -22,7 +22,6 @@
   width: 100%;
   height: auto;
   position: relative;
-  border: 1px solid, black;
   background: repeating-radial-gradient(
     ellipse at 100%,
     rgba(0, 0, 0, 0.4) 0.5px,
@@ -34,7 +33,6 @@
   width: 100%;
   height: 550px;
   position: relative;
-  border: 1px solid, black;
   transform: scaleX(-1);
   background: repeating-radial-gradient(
     ellipse at 100%,
