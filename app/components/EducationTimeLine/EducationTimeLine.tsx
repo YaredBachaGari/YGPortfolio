@@ -21,7 +21,7 @@ const EducationTimeLine = () => {
       <div className={styles.educationwrapper}>
         <ul className={styles.fulllist}>
           {MyEducation?.map((education) => (
-            <SingleEducation key={education.id} details={education} />
+            <SingleEducation key={education.id} details={education} ref={ref} />
           ))}
         </ul>
       </div>

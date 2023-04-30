@@ -252,7 +252,7 @@ export const AllLinks = {
   phone: "206-641-0154",
 };
 
-export const Allwebprojects = [
+export const Allwebprojects:webproject = [
   {
     id: 1,
     cardImg: "/images/personalPortfolio.png",
@@ -563,7 +563,7 @@ export const ResearchProjects = [
   },
 ];
 
-export const mySkillSet = [
+export const mySkillSet:myskills = [
   {
     id: 1,
     type: "frontend",
@@ -706,7 +706,7 @@ export const mySkillSet = [
   },
 ];
 
-export const softSkillSet = [
+export const softSkillSet:myskills = [
   {
     id: 1,
     type: "softskill",

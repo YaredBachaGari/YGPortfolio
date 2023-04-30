@@ -25,7 +25,7 @@ const ContactForm = (props: Props) => {
       [name]: value,
     }));
   };
-  const onSubmitHandler = async (e) => {
+  const onSubmitHandler = async (e:React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
       if (!formData.email || formData.message) {

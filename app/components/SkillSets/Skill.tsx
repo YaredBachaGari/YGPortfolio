@@ -6,12 +6,12 @@ type Props = {
   skill: {
     id: number;
     type: string;
-    icon: string;
+    icon: iconName ;
     skillname: string;
     proficiencyPerc?: string;
   };
-  classIcon?:string
-  classIconName?:string
+  classIcon?: string;
+  classIconName?: string;
 };
 
 const Skill = ({ skill, classIcon, classIconName }: Props) => {
@@ -39,12 +39,14 @@ const Skill = ({ skill, classIcon, classIconName }: Props) => {
       title = "99%";
       break;
   }
-
+//
   return (
     <div className={styles.ItemContainer}>
       <div className={styles.technameIcon}>
         <span className={classIcon}>{LookUp[`${icon}`] || ""}</span>{" "}
-        <span className={`${styles.techname} ${classIconName}`}>{skillname}</span>
+        <span className={`${styles.techname} ${classIconName}`}>
+          {skillname}
+        </span>
       </div>
       <div className={styles[`${level}`]} title={title}></div>
     </div>

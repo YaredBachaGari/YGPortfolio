@@ -24,7 +24,7 @@ const ExperianceTimeLine = (props: Props) => {
       <div className={styles.fullListContainer}>
         <ul className={styles.fulllist}>
           {ListOfMyExp?.map((exp) => (
-            <SingleExperiance detail={exp} key={exp.id} />
+            <SingleExperiance detail={exp} key={exp.id} ref={ref}/>
           ))}
         </ul>
       </div>
