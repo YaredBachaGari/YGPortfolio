@@ -29,7 +29,7 @@ const SkillWrapper = ({ children, className, x, y, title }: Props) => {
         placement: "auto-start",
       });
     }
-  }, []);
+  }, [title]);
 
   return (
     <motion.div
