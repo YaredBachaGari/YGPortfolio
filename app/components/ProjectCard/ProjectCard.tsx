@@ -53,7 +53,7 @@ const ProjectCard = ({ carddetail }: Props) => {
       <Image
         src={cardImg}
         alt="tech Icon"
-        width={screenSize.width > 420 ? 400 : 300}
+        width={screenSize.width > 420 ? 400 : 330}
         height={250}
         priority
       />
