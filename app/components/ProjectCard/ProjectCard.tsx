@@ -56,6 +56,7 @@ const ProjectCard = ({ carddetail }: Props) => {
         width={screenSize.width > 420 ? 400 : 330}
         height={250}
         priority
+        className={styles.projectcardcover}
       />
       <div className={styles.textcontainer}>
         <p className={styles.projecttitle}>{projectTitle}</p>
@@ -70,7 +71,7 @@ const ProjectCard = ({ carddetail }: Props) => {
         </div>
       </div>
       <div className={`${styles.buttoncontainer} ${styles.textcontainer}`}>
-        <div className={styles.innerbtn}>
+        <div className={`${styles.innerbtn} ${styles.dontshow}`}>
           <span>
             <WebIcon className={styles.smallweb} />
           </span>

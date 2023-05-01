@@ -29,8 +29,9 @@
 }
 .buttoncontainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
+  margin: 0 0.5rem;
 }
 .innerbtn {
   display: flex;
@@ -77,8 +78,14 @@
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
 }
+.dontshow{
+  display: none;
+}
 @media screen and (max-width:420px) {
   .cardContainer{
+    width: 330px;
+  }
+  .projectcardcover{
     width: 330px;
   }
 }
