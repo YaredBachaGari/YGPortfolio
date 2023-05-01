@@ -88,4 +88,7 @@
   .projectcardcover{
     width: 330px;
   }
+  .projectdesc{
+    margin-bottom: 1rem;
+  }
 }
