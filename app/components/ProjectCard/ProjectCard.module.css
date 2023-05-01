@@ -79,6 +79,6 @@
 }
 @media screen and (max-width:420px) {
   .cardContainer{
-    width: 370px;
+    width: 300px;
   }
 }

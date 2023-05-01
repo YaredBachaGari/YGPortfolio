@@ -60,7 +60,7 @@ step-5 Open
 
 ## 🚀 Deployed Site
 
-http://www.yaredgari.com
+https://yared-portfolio.vercel.app/projects
 
 ## Demo
 
