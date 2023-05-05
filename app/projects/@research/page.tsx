@@ -22,7 +22,7 @@ const Researchpage = (props: Props) => {
             <Research className={styles.headerIcon} />
           </span>{" "}
           <AnimatedHeader
-            text="Published Reseaches"
+            text="Published Researches"
             className={styles.fontadjust}
           />
         </span>

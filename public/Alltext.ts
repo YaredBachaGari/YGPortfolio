@@ -32,13 +32,13 @@ export const metaContent = {
 
 export const bioContent = {
   p1: "My name is Yared Gari. Growing up in Ethiopia, I always had a fascination with engineering. This passion led me to pursue and earn both a bachelor's and master's degree in hydraulic and water resource engineering from Bahir Dar University. During my academic journey, I had the opportunity to teach and mentor numerous undergraduate students and even had my research published in international journals and conferences.",
-  p2: "Despite my accomplishments in engineering, I couldn't shake off my childhood interest in the IT industry. So, I decided to take a leap of faith and attend two bootcamps to pursue a career as a full-stack software developer. Now, as a junior software engineer at McKinsey & Company, I continue to broaden my skills and contribute to the ever-evolving world of technology. These diverse experiences have given me a unique perspective and approach to problem-solving, and I look forward to making more impactful contributions in the future.",
+  p2: "Despite my accomplishments in engineering, I couldn't shake off my childhood interest in the IT industry. So, I decided to take a leap of faith and attend two bootcamps to pursue a career as a full-stack software developer. Now, as a software engineering apparentice at McKinsey & Company, I continue to broaden my skills and contribute to the ever-evolving world of technology. These diverse experiences have given me a unique perspective and approach to problem-solving, and I look forward to making more impactful contributions in the future.",
 };
 
 export const ListOfMyExp = [
   {
     id: 6,
-    position: "Software Engineer",
+    position: "Junior Software Engineer",
     company: "McKinsey & Company",
     duration: { from: "2022", to: "Now" },
     city: "Atlanta",
@@ -47,17 +47,17 @@ export const ListOfMyExp = [
       {
         id: 1,
         description:
-          "Collaborated with the development team to create new features that boosted user engagement by 20% and enhanced the overall user experience.",
+          "Collaborated on development of mckinsey quarterly and mckinsey Insight stores app, which boosted user engagement by X% and enhanced the overall user experience.",
       },
       {
         id: 2,
         description:
-          "Conducted A/B experiments using Adobe Analytics with my team to optimize our application.",
+          "Conducted A/B experiments using Adobe Analytics with my team to optimize Mckinsey.com",
       },
       {
         id: 3,
         description:
-          "Implemented comprehensive unit and integration test suites that resulted in a 30% decrease in production issues and errors.",
+          "Implemented unit and integration test suites that resulted in a Y% decrease in production issues.",
       },
       {
         id: 4,
