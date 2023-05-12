@@ -22,7 +22,7 @@ const WebPage = (props: Props) => {
             <WebIcon className={styles.webicons} />
           </span>{" "}
           <AnimatedHeader
-            text="Web Development"
+            text="Technical Projects"
             className={styles.fontadjust}
           />
         </span>

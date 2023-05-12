@@ -32,13 +32,13 @@ export const metaContent = {
 
 export const bioContent = {
   p1: "My name is Yared Gari. Growing up in Ethiopia, I always had a fascination with engineering. This passion led me to pursue and earn both a bachelor's and master's degree in hydraulic and water resource engineering from Bahir Dar University. During my academic journey, I had the opportunity to teach and mentor numerous undergraduate students and even had my research published in international journals and conferences.",
-  p2: "Despite my accomplishments in engineering, I couldn't shake off my childhood interest in the IT industry. So, I decided to take a leap of faith and attend two bootcamps to pursue a career as a full-stack software developer. Now, as a Junior software engineer at McKinsey & Company, I continue to broaden my skills and contribute to the ever-evolving world of technology. These diverse experiences have given me a unique perspective and approach to problem-solving, and I look forward to making more impactful contributions in the future.",
+  p2: "Despite my accomplishments in engineering, I couldn't shake off my childhood interest in the IT industry. So, I decided to take a leap of faith and attend two bootcamps to pursue a career as a full-stack software developer. Now, as a software engineer at McKinsey & Company, I continue to broaden my skills and contribute to the ever-evolving world of technology. These diverse experiences have given me a unique perspective and approach to problem-solving, and I look forward to making more impactful contributions in the future.",
 };
 
 export const ListOfMyExp = [
   {
     id: 6,
-    position: "Junior Software Engineer",
+    position: "Software Engineer",
     company: "McKinsey & Company",
     duration: { from: "2022", to: "Now" },
     city: "Atlanta",
@@ -47,22 +47,22 @@ export const ListOfMyExp = [
       {
         id: 1,
         description:
-          "Collaborated on the development of the McKinsey Quarterly Digital edition and McKinsey Insight store, which added tens of thousands of new users to our user base in the first three months.",
+          "Collaborated on the development of the McKinsey Quarterly Digital edition and McKinsey Insight store, which added over 5k new users to our user base in the first months,",
       },
       {
         id: 2,
         description:
-          "Conducted A/B experiments using Adobe Analytics with my team to optimize Mckinsey.com, identifying opportunities that increased our user acquisition rate by more than 20%.",
+          "Conducted A/B experiments using Adobe Analytics with my team to optimize Mckinsey.com, identifying opportunities that increased our user acquisition rate by more than 20%,",
       },
       {
         id: 3,
         description:
-          "Implemented unit and integration test suites that resulted in a drastic decrease in production issues.",
+          "Implemented unit and integration test suites that resulted in a drastic decrease in production issues,",
       },
       {
         id: 4,
         description:
-          "Identified, debugged, tested, and resolved various issues within our codebase to improve the overall quality of our application.",
+          "Identified, debugged, tested, and resolved various issues within our codebase to improve the overall quality of our application,",
       },
       {
         id: 5,
@@ -73,7 +73,7 @@ export const ListOfMyExp = [
   },
   {
     id: 5,
-    position: "Junior Software Engineer",
+    position: "Software Engineer",
     company: "Axious Solution",
     duration: { from: "2021", to: "2022" },
     city: "Washington Dc",
@@ -82,17 +82,17 @@ export const ListOfMyExp = [
       {
         id: 1,
         description:
-          "Contributed to the creation of comprehensive documentation for new features, resulting in a 20% reduction in onboarding time for new team members.",
+          "Contributed to the creation of comprehensive documentation for new features, resulting in a 20% reduction in onboarding time for new team members,",
       },
       {
         id: 2,
         description:
-          "Collaborated with senior team members to troubleshoot and resolve production issues, resulting in a 25% reduction in critical system issues and downtime.",
+          "Collaborated with senior team members to troubleshoot and resolve production issues, resulting in a 25% reduction in critical system issues and downtime,",
       },
       {
         id: 3,
         description:
-          "Assisted in the optimization of the codebase by identifying and fixing performance issues resulting in a 15% improvement in application speed.",
+          "Assisted in the optimization of the codebase by identifying and fixing performance issues resulting in a 15% improvement in application speed",
       },
     ],
   },
@@ -126,7 +126,7 @@ export const ListOfMyExp = [
   // },
   {
     id: 2,
-    position: "Lecturer",
+    position: "Instructor",
     company: "Bahir Dar Institute of Technology",
     duration: { from: "2013", to: "2020" },
     city: "Bahir Dar",
@@ -135,7 +135,7 @@ export const ListOfMyExp = [
       {
         id: 1,
         description:
-          "Taught courses in hydraulics and water resources system analyses ",
+          "Taught open channel hydraulic, hydraulics I & II  and hydraulic structures,",
       },
       {
         id: 2,
@@ -145,7 +145,7 @@ export const ListOfMyExp = [
       {
         id: 3,
         description:
-          "Supervised and advised undergraduate students in their research projects ",
+          "Supervised and advised 5 batches of undergraduate students in their research projects ",
       },
     ],
   },
