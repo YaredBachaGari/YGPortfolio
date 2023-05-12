@@ -47,27 +47,27 @@ export const ListOfMyExp = [
       {
         id: 1,
         description:
-          "Collaborated on the development of the McKinsey Quarterly Digital edition and McKinsey Insight store, which added over 5k new users to our user base in the first months,",
+          "Collaborated on the development of the McKinsey Quarterly Digital edition and McKinsey Insight store, which added over 5k new users to our user base in the first months.",
       },
       {
         id: 2,
         description:
-          "Conducted A/B experiments using Adobe Analytics with my team to optimize Mckinsey.com, identifying opportunities that increased our user acquisition rate by more than 20%,",
+          "Conducted A/B experiments using Adobe Analytics with my team to optimize Mckinsey.com, identifying opportunities that increased our user acquisition rate by more than 20%.",
       },
       {
         id: 3,
         description:
-          "Implemented unit and integration test suites that resulted in a drastic decrease in production issues,",
+          "Implemented unit and integration test suites that resulted in a drastic decrease in production issues.",
       },
       {
         id: 4,
         description:
-          "Identified, debugged, tested, and resolved various issues within our codebase to improve the overall quality of our application,",
+          "Identified, debugged, tested, and resolved various issues within our codebase to improve the overall quality of our application.",
       },
       {
         id: 5,
         description:
-          "Improved the performance and reliability of our application's codebase by developing React components and refactoring existing code",
+          "Improved the performance and reliability of our application's codebase by developing React components and refactoring existing code.",
       },
     ],
   },
@@ -82,17 +82,17 @@ export const ListOfMyExp = [
       {
         id: 1,
         description:
-          "Contributed to the creation of comprehensive documentation for new features, resulting in a 20% reduction in onboarding time for new team members,",
+          "Contributed to the creation of comprehensive documentation for new features, resulting in a 20% reduction in onboarding time for new team members.",
       },
       {
         id: 2,
         description:
-          "Collaborated with senior team members to troubleshoot and resolve production issues, resulting in a 25% reduction in critical system issues and downtime,",
+          "Collaborated with senior team members to troubleshoot and resolve production issues, resulting in a 25% reduction in critical system issues and downtime.",
       },
       {
         id: 3,
         description:
-          "Assisted in the optimization of the codebase by identifying and fixing performance issues resulting in a 15% improvement in application speed",
+          "Assisted in the optimization of the codebase by identifying and fixing performance issues resulting in a 15% improvement in application speed.",
       },
     ],
   },
@@ -107,23 +107,10 @@ export const ListOfMyExp = [
       {
         id: 1,
         description:
-          "Carried out one research project on the Nile water management and published the find on international journal",
+          "Carried out one research project on the Nile water management and published the find on international journal.",
       },
     ],
   },
-  // {
-  //   id: 3,
-  //   position: "Visting Reseacher",
-  //   company: "University of Calgary",
-  //   duration: { from: "2018", to: "2019" },
-  //   city: "Calgary",
-  //   country: "Canada",
-  //   kpi: [
-  //     { id: 1, description: "key point1 " },
-  //     { id: 2, description: "key point2 " },
-  //     { id: 3, description: "key point3 " },
-  //   ],
-  // },
   {
     id: 2,
     position: "Instructor",
@@ -135,17 +122,17 @@ export const ListOfMyExp = [
       {
         id: 1,
         description:
-          "Taught open channel hydraulic, hydraulics I & II  and hydraulic structures,",
+          "Taught open channel hydraulic, hydraulics I & II  and hydraulic structures.",
       },
       {
         id: 2,
         description:
-          "Published two research articles on international journals ",
+          "Published two research articles on international journals. ",
       },
       {
         id: 3,
         description:
-          "Supervised and advised 5 batches of undergraduate students in their research projects ",
+          "Supervised and advised 5 batches of undergraduate students in their research projects. ",
       },
     ],
   },
@@ -159,17 +146,17 @@ export const ListOfMyExp = [
     kpi: [
       {
         id: 1,
-        description: "Prepared construction action plans for over 20 projects",
+        description: "Prepared construction action plans for over 20 projects.",
       },
       {
         id: 2,
         description:
-          "Prepared bill of Quantity, takeoff sheet and payment certificates for many projects",
+          "Prepared bill of Quantity, takeoff sheet and payment certificates for many projects.",
       },
       {
         id: 3,
         description:
-          "carried out weekly progress evaluation and cost benefit analysis of projects",
+          "carried out weekly progress evaluation and cost benefit analysis of projects.",
       },
     ],
   },
