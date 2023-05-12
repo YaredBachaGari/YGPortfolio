@@ -40,7 +40,7 @@ import { useState } from "react";
 type Props = {};
 
 const SkillPage = (props: Props) => {
-  const [mode, setMode] = useState(false);
+  const [mode, setMode] = useState(true);
   const handleModeChange = () => {
     setMode(!mode);
   };

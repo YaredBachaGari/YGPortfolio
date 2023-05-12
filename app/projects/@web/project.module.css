@@ -19,6 +19,8 @@
 .webicons{
   width: 2rem;
   height: 2rem;
+  transform: translateY(15%);
+  margin-right: 0.5rem;
 }
 .webicons path{
   fill: var(--tertiarycolor);

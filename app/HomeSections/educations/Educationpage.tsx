@@ -22,8 +22,8 @@ const Educations = (props: Props) => {
         <div className={styles.keyexp}>
           {!toggled ? (
             <>
-              <PlusCircularBtn
-                className={styles.toggleOn}
+              <CloseBtnCircular
+                className={styles.toggleoff}
                 onClick={() => setToggled(!toggled)}
               />
               <div className={styles.timeline}>
@@ -32,8 +32,8 @@ const Educations = (props: Props) => {
             </>
           ) : (
             <>
-              <CloseBtnCircular
-                className={styles.toggleoff}
+              <PlusCircularBtn
+                className={styles.toggleOn}
                 onClick={() => setToggled(!toggled)}
               />
               <div className={styles.maingroup}>
